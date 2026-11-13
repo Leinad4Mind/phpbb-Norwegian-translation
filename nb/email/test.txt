@@ -1,0 +1,13 @@
+Emne: phpBB er riktig konfigurert for å sende e-post.
+
+Hei, {USERNAME}!
+
+Hvis du mottok denne e-posten, er phpBB riktig konfigurert for å sende e-post.
+
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
+Hvis du trenger hjelp, vennligst besøk phpBB-støttforum-https://www.phpbb.com/community/
+
+{EMAIL_SIG}

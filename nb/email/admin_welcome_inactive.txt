@@ -7,7 +7,7 @@ Ta vare på denne e-posten. Kontoinformasjonen din er som følger:
 ----------------------------
 Brukernavn: {USERNAME}
 
-System-URL: {U_BOARD} 
+Brettadress: {U_BOARD}
 ----------------------------
 
 Kontoen er for øyeblikket inaktiv og må godkjennes av en administrator før du kan logge inn. Du vil motta en ny e-post når dette har skjedd.

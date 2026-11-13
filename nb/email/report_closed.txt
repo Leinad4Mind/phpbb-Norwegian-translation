@@ -2,6 +2,12 @@ Subject: Rapport lukket – «{POST_SUBJECT}»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi rapporten du sendte inn om innlegget «{POST_SUBJECT}» under «{TOPIC_TITLE}» på «{SITENAME}», er behandlet av en moderator eller administrator. Rapporten ble deretter lukket. Kontakt {CLOSER_NAME} via personlige meldinger hvis du vil ha mer informasjon.
+Rapporten du fillet på posten "{POST_SUBJECT}" av "{AUTHOR_NAME}" i "{TOPIC_TITLE}" på "{SITENAME}" ble håndtert av en moderator eller av en administrator. Rapporten ble senere stengt. Hvis du har ytterligere spørsmål, ta kontakt med {CLOSER_NAME} med en privat melding.
+
+Du kan se den meldte posten ved å klikke på følgende link:
+
+{U_VIEW_POST}
+
+Du har bedt om å bli varslet om denne hendelsen, husk at du alltid kan velge å ikke bli varslet om lukkede postrapporter ved å endre riktig innstilling i profilen din.
 
 {EMAIL_SIG}

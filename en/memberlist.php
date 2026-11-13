@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'The board requires you to be registered and logged in to search users.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'The board requires you to be registered and logged in to view profiles.',
 
+	'MANAGE_GROUP'			=> 'Manage Group',
 	'MORE_THAN'				=> 'More than',
 
 	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.',
@@ -147,7 +148,6 @@ $lang = array_merge($lang, array(
 	'VIEWING_PROFILE'		=> 'Viewing profile - %s',
 	'VIEW_FACEBOOK_PROFILE'	=> 'View Facebook Profile',
 	'VIEW_SKYPE_PROFILE'	=> 'View Skype Profile',
-	'VIEW_TWITTER_PROFILE'	=> 'View Twitter Profile',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'View YouTube Channel',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'View Google+ Profile',
+	'VIEW_TWITTER_PROFILE'	=> 'View X Profile',
+	'VIEW_YOUTUBE_PROFILE'	=> 'View YouTube Profile',
 ));

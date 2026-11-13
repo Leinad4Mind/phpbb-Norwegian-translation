@@ -1,0 +1,14 @@
+Emne: phpBB {NEW_VERSION} oppdatering tilgjengelig-Kritisk oppdatering nødvendig for "{SITENAME}"
+
+Hei, {USERNAME}!
+
+Dette er en melding for å informere deg om at en kritisk sikkerhetsoppdatering har blitt gitt ut for phpBB-installasjonen din og bør installeres umiddelbart.
+
+Din nåværende versjon er {CURRENT_VERSION} og en ny versjon som inkluderer kritiske sikkerhetsoppgaver er tilgjengelig. Vi anbefaler å oppdatere forumet ditt umiddelbart til den nyeste tilgjengelige versjonen {NEW_VERSION} for å sikre at installasjonen din forblir sikker og beskyttet.
+
+Du kan se utgivelsesdetaljene i Admin Control Panel av din phpBB installasjon.
+{U_BOARD}
+
+Hvis du vil få hjelp med oppdateringsprosessen, kan du se dokumentasjonen eller besøke phpBB-supportforumene.
+
+{EMAIL_SIG}

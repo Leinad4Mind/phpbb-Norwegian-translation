@@ -7,7 +7,7 @@ Følgende er en e-post send til deg av {FROM_USERNAME} via kontoen din på «{SI
 
 Inkluder hele denne e-posten (spesielt meldingshodene). Merk at svaradressen for denne e-posten er angitt til {FROM_USERNAME}.
 
-Meldingen som ble sendt deg, følger:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Budskapet som er sendt til deg følger
+Det er ikke noe annet enn å gjøre det.
 
 {MESSAGE}

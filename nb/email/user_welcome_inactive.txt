@@ -7,10 +7,10 @@ Ta vare på denne e-posten. Kontoinformasjonen din er som følger:
 ----------------------------
 Brukernavn: {USERNAME}
 
-System-URL: {U_BOARD}
+Brettadress: {U_BOARD}
 ----------------------------
 
-Bruk følgende lenke for å aktivere kontoen:
+Vennligst besøk følgende link for å aktivere kontoen din:
 
 {U_ACTIVATE}
 

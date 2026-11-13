@@ -2,7 +2,7 @@ Subject: Innlegg avslått – «{POST_SUBJECT}»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi innlegget ditt, «{POST_SUBJECT}» på «{SITENAME}» ble avslått av en moderator eller administrator.
+Posten din "{POST_SUBJECT}" på "{SITENAME}" ble avvist av en moderator eller administrator.
 
 Følgende begrunnelse ble gitt for avslaget:
 

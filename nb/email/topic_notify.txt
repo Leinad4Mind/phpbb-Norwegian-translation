@@ -1,10 +1,11 @@
-Subject: Varsel om svar på emne – «{TOPIC_TITLE}»
+Emne: Svar i "{TOPIC_TITLE}"
+Listeoppmelding: <{U_STOP_WATCHING_TOPIC}>
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi du overvåker emnet «{TOPIC_TITLE}» på «{SITENAME}». Dette emnet har mottatt et svar<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besøk. Ingen flere varsler vil bli sendt før du besøker emnet.
+Emnet "{TOPIC_TITLE}" fikk et nytt svar<!-- IF AUTHOR_NAME != '' --> av {AUTHOR_NAME}<!-- ENDIF --> Siden du besøkte "{SITENAME}", vil du ikke få flere e-postmeldinger før du besøker temaet.
 
-Hvis du vil vise de nyeste innleggene siden ditt forrige besøk, klikker du følgende lenke:
+Hvis du vil se det nyeste innlegget, klikk på følgende link:
 {U_NEWEST_POST}
 
 Hvis du vil vise emnet, klikker du følgende lenke:
@@ -13,7 +14,7 @@ Hvis du vil vise emnet, klikker du følgende lenke:
 Hvis du vil vise forumet, klikker du følgende lenke:
 {U_FORUM}
 
-Hvis du ikke lenger ønsker å overvåke dette forumet, kan du enten klikke lenken «Stopp abonnement på forum» på forumet ovenfor eller ved å klikke følgende lenke:
+Hvis du ikke lenger ønsker å se dette temaet, klikk på følgende link:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

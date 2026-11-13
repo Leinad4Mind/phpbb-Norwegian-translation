@@ -2,6 +2,6 @@ Subject: Rapport slettet – «{POST_SUBJECT}»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi rapporten du sendte inn om innlegget «{POST_SUBJECT}» under «{TOPIC_TITLE}» på «{SITENAME}», ble slettet av en moderator eller administrator.
+Rapporten du har arkivert på posten "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" ble slettet av en moderator eller en administrator.
 
 {EMAIL_SIG}

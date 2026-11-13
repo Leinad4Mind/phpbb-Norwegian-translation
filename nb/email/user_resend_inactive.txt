@@ -10,7 +10,7 @@ Brukernavn: {USERNAME}
 
 Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
 
-Bruk følgende lenke til å aktivere kontoen:
+Vennligst besøk følgende link for å aktivere kontoen din:
 
 {U_ACTIVATE}
 

@@ -9,7 +9,7 @@ Denne e-posten inneholder viktig informasjon om installasjonen, og bør tas vare
 ----------------------------
 Brukernavn: {USERNAME}
 
-System-URL: {U_BOARD}
+Brettadress: {U_BOARD}
 ----------------------------
 
 Nyttig informasjon om phpBB-programvaren finner du i docs-mappen av installasjonen og på supportsiden til phpBB.com – https://www.phpbb.com/support/

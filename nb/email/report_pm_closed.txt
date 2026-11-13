@@ -1,0 +1,13 @@
+Emne: Privat melding avsluttet-"{SUBJECT}"
+
+Hei, {USERNAME}!
+
+Rapporten du har arkivert på den private meldingen "{SUBJECT}" av "{AUTHOR_NAME}" på "{SITENAME}" ble håndtert av en moderator eller av en administrator. Rapporten ble deretter stengt. Hvis du har flere spørsmål, ta kontakt med {CLOSER_NAME} med en privat melding.
+
+Du kan se meldte private meldinger ved å klikke på følgende link:
+
+{U_VIEW_MESSAGE}
+
+Du har bedt om å bli varslet om denne hendelsen, husk at du alltid kan velge å ikke bli varslet om lukkede private meldingsrapporter ved å endre riktig innstilling i profilen din.
+
+{EMAIL_SIG}

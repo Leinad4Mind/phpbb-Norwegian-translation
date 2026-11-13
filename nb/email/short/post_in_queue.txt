@@ -1,8 +1,8 @@
-Subject: Varsel om innleggsmoderering – «{TOPIC_TITLE}»
+Emne: Post krever godkjenning-"{TOPIC_TITLE}"
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi innlegget «{POST_SUBJECT}» på «{SITENAME}» trenger godkjenning.
+Posten "{POST_SUBJECT}" ved "{SITENAME}" trenger godkjenning.
 
 Hvis du vil vise innlegget, klikker du følgende lenke:
 {U_VIEW_POST}

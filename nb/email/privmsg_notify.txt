@@ -1,9 +1,8 @@
-Subject: Ny privat melding er mottatt
+Emne: Nye private meldinger
 
 Hei, {USERNAME}!
 
-Du har mottatt en ny privat melding fra «{AUTHOR_NAME}» til kontoen din på «{SITENAME}» med følgende emne:
-
+En ny privat melding fra "{AUTHOR_NAME}" til kontoen din på "{SITENAME}" med følgende tema har kommet:
 {SUBJECT}
 
 Du kan vise den nye meldingen ved å klikke på følgende lenke:

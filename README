@@ -1,15 +1,21 @@
-#################
-#    README	#
-#  phpbb 3.0.9	#
-#   norwegian	#
-#  translation	#
-# Version:	#
-# Pre-alpha	#
-#################
+phpBB Norwegian (Bokmål) translation
+====================================
 
-# initiated by
-# fox-body and baxon
+Current target: phpBB 3.3.19
+Language code: nb
 
-# Translate! Commit! Feel good about yourself!
+Repository layout
+-----------------
 
+* `en/` contains the official British English language files used as the
+  reference for the target phpBB release.
+* `nb/` contains the Norwegian Bokmål translation.
 
+History
+-------
+
+The original phpBB 3.0.9 translation history is preserved. The official
+Norwegian language packs for phpBB 3.1.2 and 3.1.3 were imported as separate
+commits before rebuilding the translation for phpBB 3.3.19.
+
+Original project initiated by fox-body and baxon.

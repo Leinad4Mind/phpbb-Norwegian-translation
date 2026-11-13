@@ -2,7 +2,7 @@ Subject: Rapportering av innlegg – «{TOPIC_TITLE}»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi innlegget «{POST_SUBJECT}» på «{SITENAME}» ble rapportert.
+Posten "{POST_SUBJECT}" ved "{SITENAME}" ble rapportert.
 
 Hvis du vil vise rapporten, klikker du følgende lenke:
 {U_VIEW_REPORT}

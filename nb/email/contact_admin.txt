@@ -17,7 +17,7 @@ IP-adresse: {FROM_IP_ADDRESS}
 <!-- ENDIF -->
 
 
-Meldingen som ble sendt deg, følger
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Budskapet som er sendt til deg følger
+Det er ikke noe annet enn å gjøre det.
 
 {MESSAGE}

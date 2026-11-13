@@ -79,10 +79,11 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Can save drafts',
 	'ACL_U_CHGCENSORS'	=> 'Can disable word censors',
 	'ACL_U_SIG'			=> 'Can use signature',
+	'ACL_U_EMOJI'		=> 'Can use emoji and rich text characters in topic title',
 
 	'ACL_U_SENDPM'		=> 'Can send private messages',
-	'ACL_U_MASSPM'		=> 'Can send messages to multiple users',
-	'ACL_U_MASSPM_GROUP'=> 'Can send messages to groups',
+	'ACL_U_MASSPM'		=> 'Can send private messages to multiple users',
+	'ACL_U_MASSPM_GROUP'=> 'Can send private messages to groups',
 	'ACL_U_READPM'		=> 'Can read private messages',
 	'ACL_U_PM_EDIT'		=> 'Can edit own private messages',
 	'ACL_U_PM_DELETE'	=> 'Can remove private messages from own folder',
@@ -107,6 +108,7 @@ $lang = array_merge($lang, array(
 // Forum Permissions
 $lang = array_merge($lang, array(
 	'ACL_F_LIST'		=> 'Can see forum',
+	'ACL_F_LIST_TOPICS' => 'Can see topics',
 	'ACL_F_READ'		=> 'Can read forum',
 	'ACL_F_SEARCH'		=> 'Can search the forum',
 	'ACL_F_SUBSCRIBE'	=> 'Can subscribe forum',
@@ -120,6 +122,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Can start new topics',
 	'ACL_F_STICKY'		=> 'Can post stickies',
 	'ACL_F_ANNOUNCE'	=> 'Can post announcements',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Can post global announcements',
 	'ACL_F_REPLY'		=> 'Can reply to topics',
 	'ACL_F_EDIT'		=> 'Can edit own posts',
 	'ACL_F_DELETE'		=> 'Can permanently delete own posts',
@@ -155,9 +158,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'Can split topics',
 	'ACL_M_MERGE'	=> 'Can merge topics',
 
-	'ACL_M_INFO'	=> 'Can view post details',
-	'ACL_M_WARN'	=> 'Can issue warnings<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Can manage bans<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_INFO'		=> 'Can view post details',
+	'ACL_M_WARN'		=> 'Can issue warnings',
+	'ACL_M_PM_REPORT'	=> 'Can close and delete reports of private messages',
+	'ACL_M_BAN'			=> 'Can manage bans',
 ));
 
 // Admin Permissions

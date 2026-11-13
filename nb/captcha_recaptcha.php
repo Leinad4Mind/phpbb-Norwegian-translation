@@ -1,11 +1,9 @@
 <?php
 /**
 *
-* This file is part of the Norwegian (bokmål) Language Pack
-* for the phpBB Forum Software.
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Lars Christian Schreiner
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -26,29 +24,35 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// DEVELOPERS PLEASE NOTE
-//
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
-// Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
-// translators to re-order the output of data while ensuring it remains correct
-//
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
-// equally where a string contains only two placeholders which are used to wrap text
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'nb',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Du må opprette en konto på <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> for å kunne bruke reCaptcha.',
-	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'Den visuelle bekreftelseskoden du angav, var feil',
-
-	'RECAPTCHA_PUBLIC'				=> 'Offenlig reCaptcha-nøkkel',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Din offentlige reCaptcha-nøkkel. Nøkler kan du få tak i på <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Privat reCaptcha-nøkkel',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Din private reCaptcha-nøkkel. Nøkler kan du få tak i på <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-
-	'RECAPTCHA_EXPLAIN'				=> 'For å hindre automatisert innsending, krever vi at du skriver inn begge ordene som vises i tekstfeltet nedenfor.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Feil ved tilkobling til RECAPTCHA-tjenesten: Kan ikke åpne socket. Prøv igjen senere.',
+	'RECAPTCHA_LANG'	=> 'en-GB',
+	'CAPTCHA_RECAPTCHA'	=> 'reCaptcha v2',
+	'CAPTCHA_RECAPTCHA_V3'	=> 'reCaptcha v3',
+	'RECAPTCHA_INCORRECT'	=> 'Løsningen du ga var feil',
+	'RECAPTCHA_NOSCRIPT'	=> 'Vennligst aktiver JavaScript i nettleseren din for å laste utfordringen.',
+	'RECAPTCHA_NOT_AVAILABLE'	=> 'For å bruke reCaptcha må du opprette en konto på <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'	=> 'Denne CAPTCHA er faktisk usynlig. For å bekrefte at den fungerer, bør et lite ikon vises i det nederste høyre hjørnet av siden.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Du har overgått det maksimale antall innloggningsforsøk tillatt.<br>I tillegg til brukernavn og passord vil den usynlige reCAPTCHA v3 bli brukt til å autentisere sesjonen din.',
+	'RECAPTCHA_PUBLIC'	=> 'Nettstedet nøkkel',
+	'RECAPTCHA_PUBLIC_EXPLAIN'	=> 'Du kan få nøklene på <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>Bruk reCAPTCHA v2 &gt; Invisible reCAPTCHA type skilt.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Du kan få nøklene på <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>Vær så snill, bruk reCAPTCHA v3.',
+	'RECAPTCHA_PRIVATE'	=> 'Hemmelig nøkkel',
+	'RECAPTCHA_PRIVATE_EXPLAIN'	=> 'Din hemmelige reCAPTCHA-nøkkel. <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>Bruk reCAPTCHA v2 &gt; Invisible reCAPTCHA type skilt.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Din hemmelige reCAPTCHA-nøkkel. <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>Vær så snill, bruk reCAPTCHA v3.',
+	'RECAPTCHA_V3_DOMAIN'	=> 'Anmodningsdomene',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'	=> 'Domænet for å hente skriptet fra og bruke når forespørselen verifiseres.<br>Bruk <samp>recaptcha.net</samp> når <samp>google.com</samp> er ikke tilgjengelig.',
+	'RECAPTCHA_V3_METHOD'	=> 'Anmodningsmetode',
+	'RECAPTCHA_V3_METHOD_EXPLAIN'	=> 'Metoden som skal brukes ved verifisering av anmodningen.<br>Inaktiverte alternativer er ikke tilgjengelige i innstillingen din.',
+	'RECAPTCHA_V3_METHOD_CURL'	=> 'CURL',
+	'RECAPTCHA_V3_METHOD_POST'	=> 'POST',
+	'RECAPTCHA_V3_METHOD_SOCKET'	=> 'Støtte',
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT'	=> 'Forutsettelsesgrensen',
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> 'Brukes når ingen av de andre tiltakene er gjeldende.',
+	'RECAPTCHA_V3_THRESHOLD_LOGIN'	=> 'Trøskel for innlogging',
+	'RECAPTCHA_V3_THRESHOLD_POST'	=> 'Trøskel etter',
+	'RECAPTCHA_V3_THRESHOLD_REGISTER'	=> 'Registreringsgrensen',
+	'RECAPTCHA_V3_THRESHOLD_REPORT'	=> 'Rapporteringsgrensen',
+	'RECAPTCHA_V3_THRESHOLDS'	=> 'Trøskelværdier',
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'	=> 'reCAPTCHA v3 returnerer et resultat (<samp>1.0</samp> er svært sannsynlig en god samspill, <samp>0.0</samp> Her kan du sette den minste poengsummen per handling.',
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'	=> 'reCAPTCHA v3 krever å vite hvilken tilgjengelig metode du ønsker å bruke når du verifiserer forespørselen.',
 ));

@@ -1,0 +1,14 @@
+Emne: phpBB {NEW_VERSION} oppdatering tilgjengelig-Sikkerhetsoppdatering tilgjengelig for "{SITENAME}"
+
+Hei, {USERNAME}!
+
+Dette er en melding for å informere deg om at en sikkerhetsoppdatering er gitt ut for phpBB-installasjonen din.
+
+Din nåværende versjon er {CURRENT_VERSION} og en ny versjon som inkluderer sikkerhetstilpasninger er tilgjengelig. Vi anbefaler å oppdatere forumet ditt til den nyeste tilgjengelige versjonen {NEW_VERSION} for å sikre at installasjonen din forblir sikker og beskyttet.
+
+Du kan se utgivelsesdetaljene i Admin Control Panel av phpBB installasjonen
+{U_BOARD}
+
+Hvis du vil få hjelp med oppdateringsprosessen, kan du se dokumentasjonen eller besøke phpBB-supportforumene.
+
+{EMAIL_SIG}
