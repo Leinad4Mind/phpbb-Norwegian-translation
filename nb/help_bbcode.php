@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* help_bbcode [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokmål) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2005 phpBB Group, 2011 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -32,52 +34,52 @@ if (!defined('IN_PHPBB'))
 
 $help = array(
 	array(
-		0 => '--',
-		1 => 'Introduksjon'
+		0	=> '--',
+		1	=> 'Introduksjon',
 	),
 	array(
-		0 => 'Hva er BBCode/BBkoder?',
-		1 => 'BBCode er en spesiell implementering av HTML. Hvorvidt du faktisk kan bruke BBCode i innleggene dine på forumet er bestemt av administratoren. I tillegg kan du deaktivere BBCode i et innlegg via innleggsiden. BBCode ligner på HTML i formateringen, men taggene er omringet av firkantparenteser [ og ] isteden for &lt; og &gt; og gir en bedre kontroll over hvordan noe blir vist. Avhengig av malen du bruker, vil du se at å benytte BBCode i dine innlegg er gjort mye enklere gjennom et klikkbart grensesnitt over meldings området på innleggsiden. Selv med dette kan du finne følgende guide nyttig.'
+		0	=> 'Hva er BBCode?',
+		1	=> 'BBCode er en spesiell implementering av HTML. Det er opptil administratoren å bestemme om du faktisk kan bruke BBCode i innlegg på forumet. I tillegg kan BBCode deaktiveres i enkeltinnlegg via innleggsskjemaet. BBCode ligner i seg selv på HTML, tagger er omsluttet av firkantklammene [ og ] i stedet for &lt; og &gt;, og dette gir langt bedre kontroll over hva som vises og hvordan. Avhengig av hvilken mal du bruker, kan det hende at du synes det er enklere å legge til BBCode i innlegg ved hjelp av de klikkbare knappene over meldingsområdet på innleggsskjemaet. Allikevel vil du kanskje få nytte av denne veiledningen.',
 	),
 	array(
-		0 => '--',
-		1 => 'Tekstformatering'
+		0	=> '--',
+		1	=> 'Tekstformatering',
 	),
 	array(
-		0 => 'Hvordan lage fet, kursiv og understreket tekst',
-		1 => 'BBCode har tagger som raskt lar deg endre den grunnleggende stilen i teksten. Dette oppnås på følgende måter: <ul> <li> For å gjøre en tekst fet omgir du den med <strong> [b] [/b] </strong>, f.eks <br /> <br /> <strong> [b] </strong> Hei <strong> [/b] </strong> <br /> <br /> blir <strong> Hei </strong> </li> <li> for understreking bruk <strong> [u] [/u] </strong>, for eksempel: <br /> <br /> <strong> [u] </strong> God morgen<strong> [/u] </strong> <br /> <br /> blir <span style="font-weight: underline"> God morgen</span> </li> <li> for å gjøre teksten kursiv bruke <strong> [i] [/i] </strong>, f.eks <br /> <br /> Dette er <strong> [i] </strong> Bra! <strong> [/i] </strong> <br /> <br /> ville gi Dette er <i> Bra! </i> </li> </ul>'
+		0	=> 'Slik lager du fet, kursiv og understreket tekst',
+		1	=> 'BBCode inneholder tagger som enkelt lar deg endre den grunnleggende tekststilen. Det gjøres på denne måten: <ul><li>For å gjøre en del av teksten fet, omgis den med taggene <strong>[b][/b]</strong>, for eksempel vil<br /><br /><strong>[b]</strong>Hallo<strong>[/b]</strong><br /><br />bli til <strong>Hallo</strong></li><li>Til understreking brukes <strong>[u][/u]</strong>, for eksempel blir <br /><br /><strong>[u]</strong>God morgen<strong>[/u]</strong><br /><br /> til <span style="text-decoration: underline">God morgen</span></li><li>Bruk <strong>[i][/i]</strong> til å kursivere teksten. Eksempel:<br /><br />Dette er <strong>[i]</strong>bra<strong>[/i]</strong>!<br /><br />Sistnevnte eksempel vil bli til Dette er <i>bra</i>!</li></ul>',
 	),
 	array(
-		0 => 'Hvordan endre skriftens farge eller størrelse',
-		1 => 'For å endre fargen eller størrelsen på teksten kan følgende tagger brukes. Husk at formateringen vil kunne variere i forskjellige nettlesere og system: <ul> <li> Bytte farge gjøres med følgende tagger <strong> [color=] [/color] </strong>. Du kan spesifisere enten et anerkjent fargenavn (f.eks red, blue, yellow, osv.) eller med heksadesimale koder, f.eks #FFFFFF, #000000. For å lage rød tekst kan du for eksempel bruke! <br /> <br /> <strong> [Color=red] </strong> Hei <strong> [/color] </strong> <br /> <br /> eller <br /> <br /> <strong> [color =#FF0000] </strong> Hei! <strong> [/color] </strong> <br /> <br /> Begge vil lage <span style = "color: red"> Hei </span> </li> <li> Endre tekstens størrelse på tilsvarende måte med <strong> [size=] [/size] </strong>!. Denne taggen er avhengig av malen brukeren har valgt, men det anbefalte formatet er en tallverdi som representerer tekststørrelsen i prosent, starter på 20 (veldig liten) opp til 200 (veldig stor) som standard. For eksempel: <br /> <br /> <strong> [size=30] </strong> LITEN <strong> [/size] </strong> <br /> <br /> vil generelt være <span style="font-size:30%;"!> LITEN </span> <br /> <br /> mens: <br /> <br /> <strong> [size=200] </strong> STOR <strong> [/size] </strong> <br /> <br /> vil bli <span style="font-size:200%;"> STOR! </span> </li> </ul>'
+		0	=> 'Hvordan endre skrifttfarge og -størrelse',
+		1	=> 'Hvis du vil endre fargen eller størrelsen på teksten, kan følgende tagger brukes. Husk at visningen avhenger av leserens nettleser og operativsystem:<ul><li>Du endrer fargen på tekst ved å omslutte den med <strong>[color=][/color]</strong>. Du kan enten angi et alminnelig, engelsk fargenavn (f.eks. red, blue, yellow osv.) eller heksadesimale tallverdier, f.eks. #FFFFFF, #000000. Hvis du vil lage rød tekst, kan du f.eks. bruke:<br /><br /><strong>[color=red]</strong>Hallo!<strong>[/color]</strong><br /><br />eller<br /><br /><strong>[color=#FF0000]</strong>Hallo!<strong>[/color]</strong><br /><br />Begge deler vises som <span style="color:red">Hallo!</span></li><li>Du endrer tekststørrelsen på en lignende måte, med <strong>[size=][/size]</strong>. Denne taggen avhenger av malen brukeren har valgt, men det anbefalte formatet er en tallverdi som representerer tekststørrelsen i prosent, fra 20 (svært liten) til 200 (svært stor) som standard. For eksempel:<br /><br /><strong>[size=30]</strong>LITE<strong>[/size]</strong><br /><br />vil vanligvis bli <span style="font-size:30%;">LITE</span><br /><br />mens:<br /><br /><strong>[size=200]</strong>ENORM!<strong>[/size]</strong><br /><br />blir <span style="font-size:200%;">ENORM!</span></li></ul>',
 	),
 	array(
-		0 => 'Kan jeg kombinere BBCode-tagger?',
-		1 => 'Ja, selvfølgelig kan du det, for og virkelig vekke oppmerksomhet kan du eksempel skrive! <br /> <br /> <strong> [Size=200] [color=red] [b] </strong> SE PÅ MEG <strong> [/b] [/color] [/size] </strong> <br /> <br /> dette ville bli <span style="color:red;font-size:200%;"> <strong> SE PÅ MEG! </strong> </span> <br /> <br /> Vi vil allikevel ikke anbefale å formatere mye tekst som ser slik ut! Husk at det er opp til deg, pass på å å sjekke at BBCode brukes i riktig rekkefølge. For eksempel er følgende feil: <br /> <br /> <strong> [b] [u] </strong> Dette er feil <strong> [/b] [/u] </strong>'
+		0	=> 'Kan jeg kombinere BBCode-tagger?',
+		1	=> 'Ja, selvsagt kan du det! Du kan for eksempel skrive følgende for å fange oppmerksomheten til noen:<br /><br /><strong>[size=200][color=red][b]</strong>SE PÅ MEG!<strong>[/b][/color][/size]</strong><br /><br />Dette vil vises slik:<span style="color:red;font-size:200%;"><strong>SE PÅ MEG!</strong></span><br /><br />Vi anbefaler imidlertid ikke at du bruker mye tekst som dette! Husk at det er opp til deg – innleggsskribenten – å sikre at tagger er lukket på riktig måte. For eksempel er følgende feil:<br /><br /><strong>[b][u]</strong>Dette er feil<strong>[/b][/u]</strong>',
 	),
 	array(
-		0 => '--',
-		1 => 'Sitering og tekst med fast bredde'
+		0	=> '--',
+		1	=> 'Sitering og visning av tekst med fast tegnbredde',
 	),
 	array(
-		0 => 'Sitere tekst i svar',
-		1 => 'Det er to måter du kan sitere tekst, med og uten referanse. <ul> <li> Når du bruker siter funksjonen for å svare på et innlegg vil du se at teksten er lagt til meldingen med følgende tagger <strong> [quote=""][/quote] </strong>. Denne metoden gjør det mulig å sitere med en referanse til en person eller hva annet du velger å sette! For eksempel for å sitere et stykke tekst Mr. Blobby skrev ville du skrive: <br /> <br /> <strong> [quote="Mr. Blobby"] </strong> "Mr. Blobby skrev:" blir automatisk lagt til som overskrift før selve teksten. Husk at du <strong> må </strong> bruke anførselstegn " " rundt navnet du siterer. </Li> <li> Den andre metoden gjør det mulig og blindt sitere noe. Da skal bare teksten skrives i mellom <strong> [quote] [/quote] </strong>-kodene. Når du viser meldingen vil det bare vise teksten i en sitat blokk. </Li> </ul>'
+		0	=> 'Sitere tekst i svar',
+		1	=> 'Du kan sitere tekst på to måter; med og uten referanse.<ul><li>Når du bruker Siter-funksjonen til å svare på et innlegg på forumet, bør du legge merke til at innleggsteksten blir lagt til i meldingsvinduet inni en <strong>[quote=&quot;&quot;][/quote]</strong>-blokk. Denne metoden lar deg sitere med referanse til en persone eller hva som helst annet du velger å bruke! Hvis du for eksempel vil sitere et utdrag av tekst som Ola Nordmann har skrevet, bruker du:<br /><br /><strong>[quote=&quot;Ola Nordmann&quot;]</strong>Teksten Ola Nordmann skrev, kommer her<strong>[/quote]</strong><br /><br />I det som vises, blir &quot;Ola Nordmann skrev:&quot; automatisk lagt til foran den faktiske teksten. Husk at du <strong>må</strong> ta med anførselstegnene &quot;&quot; før og etter navnet til den du siterer, disse er ikke valgfrie.</li><li>Den andre metoden lar deg sitere noe blindt. For å gjøre dette, bruker du taggene <strong>[quote][/quote]</strong> før og etter teksten. Når noen ser meldingen, fremstår den bare som tekst inni en sitatblokk.</li></ul>',
 	),
 	array(
-		0 => 'Skrive kode eller data med fast bredde',
-		1 => 'Hvis du ønsker å skrive kode eller noe som krever en fast bredde, for eksempel Courier skrifttype bør du omslutte teksten med <strong> [code] [/code] </strong>-kodene, f.eks <br /> <br /> <strong> [code] </strong> echo "Dette er kode "; <strong> [/code] </strong> <br /> <br /> Alle formatering som brukes innenfor <strong> [code] [/code] </strong> taggene vil beholdes når teksten vises. PHP syntakser kan utheves ved hjelp av <strong> [code=php] [/code] </strong> og er anbefalt når du skal vise PHP kodeeksempler i et innlegg.'
+		0	=> 'Vise kode eller data med fast tegnbredde',
+		1	=> 'Hvis du vil vise en kodesnutt eller hva som helst som krever fast tegnbredde, altså en skrift av Courier-typen, omslutter du teksten med <strong>[code][/code]</strong>-tagger, f.eks.<br /><br /><strong>[code]</strong>echo &quot;Dette er en kodesnutt&quot;;<strong>[/code]</strong><br /><br />All formatering som brukes innenfor <strong>[code][/code]</strong>-tagger beholdes når du ser det senere. Syntaksmarkering i PHP kan aktiveres ved hjelp av <strong>[code=php][/code]</strong>, og dette anbefales for innlegg med PHP-kodeeksempler, ettersom lesbarheten økes.',
 	),
 	array(
-		0 => '--',
-		1 => 'Generere lister'
+		0	=> '--',
+		1	=> 'Generere lister',
 	),
 	array(
-		0 => 'Lage en usortert liste',
-		1 => 'BBCode støtter to typer lister, sorterte og usorterte. De er i hovedsak de samme som deres HTML-ekvivalenter. En usortert liste viser hver linje fortløpende med innrykk og et punkttegn forran. For å opprette en usorterte liste bruker du <strong> [list] [/list] </strong> og angi hvert punkt på listen ved hjelp <strong> [*]</strong>. For eksempel for å liste dine favoritt farger kan du bruke: <br /> <br /> <strong> [list] </strong> <br /> <strong> [*]</strong> Rød <br /> <sterk >[*]</strong> Blå <br /> <strong> [*]</ strong> Gul <br /> <strong> [/list] </strong> <br /> <br /> Dette vil generere følgende liste: <ul> <li> Rød </li> <li> Blå </li> <li> Gul </li> </ul>'
+		0	=> 'Opprette en punktliste',
+		1	=> 'BBCode støtter to typer lister, både punktlister og nummererte lister. De er i utgangspunktet identiske med sine motstykker i HTML. En punktliste viser alle elementene i listen sekvensielt, etterfulgt av hvert sitt innrykkede punkttegn. Hvis du vil opprette en punktliste, bruker du <strong>[list][/list]</strong> og definerer enkeltelementene i listen med <strong>[*]</strong>. Du kan for eksempel liste opp favorittfargene dine med:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Rød<br /><strong>[*]</strong>Blå<br /><strong>[*]</strong>Gul<br /><strong>[/list]</strong><br /><br />Dette vil gi følgende liste:<ul><li>Rød</li><li>Blå</li><li>Gul</li></ul>',
 	),
 	array(
-		0 => 'Lage en sortert liste',
-		1 => 'Den andre typen liste, en sortert liste, gir deg kontroll over hva som er utgang før hvert element. For å opprette en sortert liste bruker du <strong> [list=1] [/list] </strong> for å lage en nummerert liste eller alternativt <strong> [list=a] [/list] </strong> for en alfabetisk liste. Som med usorterte lister, er elementer spesifisert ved bruker av <strong> [*]</strong>. For eksempel: <br /> <br /> <strong> [list=1] </strong> <br /> <strong> [*]</strong> Gå til butikken <br /> <strong> [*] </strong> Kjøp ny pc <br /> <strong> [*]</strong> Kjeft på pc-en når den kræsjer <br /> <strong> [/list] </strong> <br /> <br /> vil generere følgende: <ol style="list-style-type: decimal;"> <li> Gå til butikken </li> <li> Kjøp ny pc </li> <li> Kjeft på pc når den kræsjer </li> </ol> for en alfabetisert liste du vil bruke: <br /> <br /> <strong> [list=a] </strong> <br /> <strong> [*] </strong> Det første svaralternativet <br /> <strong> [*]</strong> Det andre svaralternativet <br /> <strong> [*]</strong> Det tredje svaralternativet <br/> <strong> [/list] </strong> <br /> <br /> gir <ol style="list-style-type: lower-alpha"> <li> Det første svaralternativet </li> <li> andre svaralternativet </li> <li> tredje svaralternativet </li> </ol>'
+		0	=> 'Opprette en nummerert liste',
+		1	=> 'Den andre typen liste, en nummerert liste, gir deg kontroll over hva som vises foran hvert element. Du oppretter en nummerert liste med <strong>[list=1][/list]</strong> for å bruke tall, eller alternativt <strong>[list=a][/list]</strong> for å bruke bokstaver. Som for punktlister, merkes elementene med <strong>[*]</strong>. For eksempel:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>Gå i butikken<br /><strong>[*]</strong>Kjøpe en ny datamaskin<br /><strong>[*]</strong>Forbanne datamaskinen når den krasjer<br /><strong>[/list]</strong><br /><br />Dette gir følgende:<ol style="list-style-type: decimal;"><li>Gå i butikken</li><li>Kjøpe en ny datamaskin</li><li>Forbanne datamaskinen når den krasjer</li></ol>For bokstaver bruker du imidlertid:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>Det første mulige svaret<br /><strong>[*]</strong>Det andre mulige svaret<br /><strong>[*]</strong>Det tredje mulige svaret<br /><strong>[/list]</strong><br /><br />Dette gir<ol style="list-style-type: lower-alpha"><li>Det første mulige svaret</li><li>Det andre mulige svaret</li><li>Det tredje mulige svaret</li></ol>',
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -85,33 +87,31 @@ $help = array(
 		1 => '--'
 	),
 	array(
-		0 => '--',
-		1 => 'Lage linker'
+		0	=> '--',
+		1	=> 'Opprette lenker',
 	),
 	array(
-		0 => 'Link til en annen site',
-		1 => 'phpBB BBCode støtter en rekke metoder for å lage URIer (Uniform Resource Indicators) bedre kjent som URLer. <ul> <li> Den første av disse bruker <strong> [url=] [/url] </strong> taggene, uansett hva du skriver etter = tegnet vil føre til at innholdet mellom taggene opptrer som en URL. For eksempel for å linke til phpBB.com kan du bruke: <br /> <br /> <strong> [url=http://www.phpbb.com/] </strong> Besøk phpBB <strong> [/url ] </strong> <br /> <br /> Dette vil generere følgende link, <a href="http://www.phpbb.com/"> Besøk phpBB! </a> Legg merke til at linken åpnes i samme vindu eller et nytt vindu, avhengig av brukerens innstillinger i nettleseren </li> <li> Hvis du ønsker at selve URL vises som en link kan du gjøre dette ved å bruke: <br /> <br /> <strong> [url] </strong> http://www.phpbb.com/ <strong> [/url] </strong> <br /> <br /> Dette vil generere følgende link, <a href="http://www.phpbb.com/ "> http://www.phpbb.com/ </a> </ li> <li>I tillegg har phpBB en funksjon som kalles <i> Magic Links </i>, som vil konverterer alle korrekt formaterte URLer til linker, du trenger å ikke engang å skrive http:// først. For eksempel skriver du www.phpbb.com i innlegget ditt vil dett automatisk føre til <a href="http://www.phpbb.com/"> www.phpbb.com </ a> blir resultatet når du vise meldingen. </li> <li> Det samme gjelder tilsvarende for e-postadresser, du kan enten spesifisere en adresse eksplisitt for eksempel: <br /> <br /> <strong> [email] </strong>no.one@omene.adr <strong> [/email] </strong> <br /> <br /> som gir følgende resultat <a href="mailto:no.one@domain.adr"> no.one@domain.adr</a> eller du kan bare skrive no.one@domain.adr i meldingen og det vil automatisk bli konvertert når du viser den. </li> </ul> Som med alle andre BBCode tagger kan du bruke URL rundt noen av de andre kodene eksempel <strong> [img] [/img] </strong> (se neste seksjon), <strong> [b] [/b] </strong>, etc. Som med formateringstagger er det opp til deg å sikre korrekt rekkefølge på taggene, for eksempel <br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br /> Er <span style="font-weight: underline"> ikke </span> riktig og kan føre til at innlegget ditt blir slettet så vær forsiktig.'
+		0	=> 'Lenker til andre nettsteder',
+		1	=> 'BBCode i phpBB støtter flere måter å opprette URI-er (Uniform Resource Indicators) på. Disse er mer kjent som URL-er.<ul><li>Den første av disse bruker <strong>[url=][/url]</strong>-taggen – det du skriver etter =-tegnet vil få innholdet i den taggen til å vises som en URL. Du kan for eksempel lenke til phpBB.com med:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Besøk phpBB!<strong>[/url]</strong><br /><br />Dette gir følgende lenke: <a href="http://www.phpbb.com/">Besøk phpBB!</a> Merk at lenken åpnes i enten det samme eller et nytt vindu, avhengig av brukerens nettleserpreferanser.</li><li>Hvis du vil at selve URL-en skal vises som lenke, gjør du dette ganske enkelt slik:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />Dette gir følgende lenke:<a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>I tillegg har phpBB en funksjon som kalles <i>Magiske lenker</i>, dette gjør enhvert syntaktisk korrekt URL til en lenke uten at man trenger å angi noen tagger eller til og med http:// i starten. Hvis du for eksempel skriver www.phpbb.com i meldingen, vil dette automatisk bli til <a href="http://www.phpbb.com/">www.phpbb.com</a> når noen ser meldingen.</li><li>Det samme skjer for e-postadresser – du kan enten angi en spesifikk e-postadresse, for eksempel:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />Dette gir <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> – eller så kan du bare skrive no.one@domain.adr i meldingen, så konverteres den automatisk når noen ser den.</li></ul>Som med alle BBCode-tagger, kan URL-er omsluttes av andre tagger, som <strong>[img][/img]</strong> (se neste oppføring), <strong>[b][/b]</strong> osv. Som med formateringstagger, er det opp til deg å sørge for at rett åpnings- og lukkingsrekkefølge blir fulgt – for eksempel er:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br /><span style="text-decoration: underline">ikke</span> korrekt, noe som kan føre til at innlegget slettes, så pass på.',
 	),
 	array(
-		0 => '--',
-		1 => 'Vise bilder og filer i innlegg'
+		0	=> '--',
+		1	=> 'Vise bilder i innlegg',
 	),
 	array(
-		0 => 'Legge til bilder i et innlegg',
-		1 => 'phpBB BBCode har en tagg for å vise bilder i innleggene dine. To svært viktige ting å huske når du bruker denne tag er: mange brukere setter ikke pris på massevis av bilder i et innlegg og for det andre bildet du viser må allerede være tilgjengelig på internett (det kan ikke eksistere bare på datamaskinen din, med mindre den er en webserver!). For å vise et bilde må du omgir URLen som peker til bildet med <strong> [img] [/img] </strong>. For eksempel: <br /> <br /> <strong> [img] </strong> http://www.google.com/intl/en_ALL/images/logo.gif <strong> [/img] </strong > <br /> <br /> Som nevnt i URL avsnittet ovenfor kan du omgi et bilde med <strong> [url] [/url] </strong>-koden hvis du ønsker det, f.eks <br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br /> ville generere: <br /><br /><a href="http://www.google.com/"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
+		0	=> 'Legge til bilder i innlegg',
+		1	=> 'BBCode i phpBB har en tagg for å vise bilder i innlegg. To ting det er svært viktig å huske når man bruker denne taggen, er for det første at mange brukere liker dårlig at det vises mange bilder i innlegg, og for det andre at bildet du viser, allerede må være tilgjengelig på Internett (det kan for eksempel ikke bare finnes på datamaskinen din, med mindre den er en webserver!). Du viser et bilde ved å omslutte URL-en til bildet med <strong>[img][/img]</strong>-tagger. For eksempel:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />Som nevnt i URL-avsnittet over, kan du omslutte et bilde med <strong>[url][/url]</strong>-taggen hvis du ønsker det, f.eks. vil<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />gi:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>',
 	),
 	array(
-		0 => 'Legge til vedlegg i et innlegg',
-		1 => 'Vedlegg kan nå plasseres i hvilke som helst del av et innlegg med den nye <strong> [attachment=] [/attachment] </strong> BBCode, hvis vedleggs funksjonaliteten er aktivert av en administrator, og hvis du får de riktige tillatelser til å opprette vedlegg. Når du skriver et innlegg vil du se en rullgardinmeny (henholdsvis en knapp) for vedlegg.'
+		0	=> 'Legge til vedlegg i et innlegg',
+		1	=> 'Vedlegg kan nå plasseres hvor som helst i innlegget, med den nye BBCode-koden <strong>[attachment=][/attachment]</strong>, forutsatt at vedleggets funksjonalitet er aktivert av en systemadministrator og du har de nødvendige tilgangene til å opprette vedlegg. På innleggsskjermen finnes en nedtrekksboks (eller en knapp) for å plassere vedlegg i teksten.',
 	),
 	array(
-		0 => '--',
-		1 => 'Annet'
+		0	=> '--',
+		1	=> 'Andre ting',
 	),
 	array(
-		0 => 'Kan jeg lage egne BBCode-tagger?',
-		1 => 'Hvis du er administrator på dette forumet og har de nødvendige tillatelsene, kan du legge til ytterligere BBCoder gjennom Custom BBCoder seksjonen.'
-	)
+		0	=> 'Kan jeg legge til mine egne tagger?',
+		1	=> 'Hvis du er administrator på dette systemet og har tillatelsene som trengs, kan du legge til flere BBCode-koder i delen Egendefinert BBCode.',
+	),
 );
-
-?>

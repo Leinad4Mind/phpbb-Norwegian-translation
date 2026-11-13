@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* help_faq [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokmål) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2005 phpBB Group, 2011 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,172 +38,176 @@ $help = array(
 		1 => 'Innloggings- og registreringsproblemer'
 	),
 	array(
-		0 => 'Hvorfor kan jeg ikke logge meg inn?',
-		1 => 'Det er flere grunner til at dette kan skje. Først må du kontrollere at brukernavn og passord er riktig. Hvis de er, ta kontakt med administrator for å sjekke at du ikke har blitt utestengt. Det er også mulig at forumet har en feilkonfigurering på sin side, som de må ordne.'
-	),
-	array(
 		0 => 'Hvorfor må jeg registrere meg?',
-		1 => 'Det er ikke sikkert du må, det er opp til administratoren av forumet om du må registrere deg for å skrive innlegg. Men, registrering vil gi deg tilgang til flere funksjoner som ikke er tilgjenglig for en gjestebruker slik som å velge et avatar bilde, private meldinger, e-post til andre brukere, brukergruppe abonnement, osv. Det tar bare et par minutter å registrere seg så det anbefales at du gjør det.'
-	),
-	array(
-		0 => 'Hvorfor blir jeg logget ut automatisk?',
-		1 => 'Hvis du ikke haker av <em>Logg meg på automatisk</em> boksen når du logger inn i forumet, vil du kun bli logget inn for en forhåndsbestemt tid. Dette hindrer andre i å misbruke kontoen din. For og forbli innlogget må du hake av i boksen når du logger inn. Dette er ikke anbefalt dersom du bruker forumet fra en delt datamaskin, for eksempel bibliotek, en internettkafé, et skolenettverk, osv. Hvis du ikke ser denne boksen, skyldes det at administratoren har deaktivert denne funksjonen.'
-	),
-	array(
-		0 => 'Hvordan kan jeg forhindre at brukernavnet mitt blir vist i listen over påloggede brukere?',
-		1 => 'I brukerkontrollpanelet under "Forumpreferanser" vil du finne valget <em>skjul din online-status </em>. Aktiver dette alternativet med <samp>Ja</samp> og du vil kun sees av administratorer, moderatorer og deg selv. Du vil bli registrert som en skjult bruker.'
-	),
-	array(
-		0 => 'Jeg har glemt passordet mitt!',
-		1 => 'Ikke få panikk! Ditt passord kan ikke hentes, men kan det lett bli nullstilt. Besøk logg inn siden og klikk <em>Jeg har glemt passordet mitt</em>. Følg instruksjonene og du skal kunne logge på igjen om kort tid.'
-	),
-	array(
-		0 => 'Jeg har registrert meg, men kan ikke logge inn!',
-		1 => 'Først sjekk ditt brukernavn og passord. Dersom de er riktige, kan en av to ting ha skjedd. Hvis COPPA support er aktivisert og du er under 13 år ved registreringen, må du følge instruksjonene du mottok. Noen forumer krever at alle nye registreringer skal aktiviseres, enten av deg eller av en administrator før du kan logge inn, dette fikk du informasjonen om ved registreringen. Hvis du mottok en e-post, følg instruksjonene. Hvis du ikke mottok en e-post, kan du har oppgitt feil e-postadresse eller e-posten kan ha blitt plukket opp av en spam filter. Hvis du er sikker på at e-postadressen du oppgav er riktig, prøv å kontakte en administrator.'
-	),
-	array(
-		0 => 'Jeg har registrert meg tidligere, men kan ikke logge inn mer?!',
-		1 => 'Forsøk å finne e-posten sendt til deg når du først registrert, sjekk ditt brukernavn og passord og prøv igjen. Det er mulig en administrator har slettet eller deaktivert din konto av en eller annen grunn. Mange administratorene sletter brukere som ikke har skrevet innlegg på en lang stund for å redusere størrelsen på databasen. Hvis dette har skjedd, kan du registrere deg igjen og blir mer involvert i diskusjoner.'
+		1 => 'Det er ikke alltid nødvendig, det er opp til systemadministratoren hvorvidt du må registrere deg for å legge inn meldinger. Ved å registrere deg får du imidlertid tilgang til flere funksjoner som gjestebrukere ikke har, som egendefinerbare avatarbilder, private meldinger, e-postsending til andre brukere, deltakelse i brukergrupper osv. Det tar bare noen få øyeblikk å registrere seg, så det anbefales at du gjør det.'
 	),
 	array(
 		0 => 'Hva er COPPA?',
-		1 => 'COPPA, eller Child Online Privacy and Protection Act av 1998, er en lov i USA som krever at nettsider som potensielt kan samle informasjon fra mindreårige under 13 år, må innhente foreldrenes samtykke før dette kan skjer. Denne loven gjelder ikke for norske statsborgere. Vær oppmerksom på at phpBB Group ikke kan gi juridiske råd og ikke er et kontaktpunkt for juridiske bekymringer av noe slag, unntatt som beskrevet nedenfor.',
+		1 => 'COPPA står for «Children’s Online Privacy Protection Act», som er en lov som ble vedtatt i USA i 1998, og krever at nettsteder som potensielt kan innhente informasjon fra mindreårige under 13 år, krever skriftlig samtykke fra foreldre eller en annen form for bekreftelse fra en verge, som tillater at personlig identifiserbar informasjon innhentes fra en mindreårig under 13 år. Hvis du er usikker på om dette gjelder for deg som en person som prøver å registrere seg, eller for nettstedet du prøver å registrere deg på, må du oppsøke juridisk bistand. Merk at phpBB Limited og eierne av dette nettstedet ikke kan yte juridisk bistand og er ikke et kontaktpunkt for juridiske vurderinger av noe slag, unntatt slik det er angitt i spørsmålet «Hvem kontakter jeg om misbruk og/eller juridiske vurderinger som har med dette nettstedet å gjøre?».',
 	),
 	array(
 		0 => 'Hvorfor kan jeg ikke registrere meg?',
-		1 => 'Det er mulig at administrator har blokkert din IP-adresse eller forbudt brukernavnet du prøver å registrere. Nettstedets eier kan også ha deaktivert registrering for å hindre nye besøkende i å registrere seg. Kontakt en administrator for assistanse.',
+		1 => 'Det er mulig at en systemadministrator har deaktivert registrering for å hindre at nye besøkende registrerer seg. En systemadministrator kan også ha utestengt IP-adressen din eller forbudt brukernavnet du prøver å registrere. Kontakt systemadministratoren for å få hjelp.',
 	),
 	array(
-		0 => 'Hvilke funksjon har "Slett alle forumets informasjonskapsler"?',
-		1 => 'Denne funksjonen vil slette alle informasjonskapsler (cookies) laget av phpBB. Hvis du har problemer med å logge inn eller ut, kan det hjelpe slette informasjonskapslene. phpBB bruker informasjonskapsler for å identifisere deg og holde deg innlogget på forumet. Hvis administratoren har aktivert funksjonen, kan informasjonskapsler også brukes til å lagre hvilke emner du har lest.',
+		0 => 'Jeg har registrert meg, men kan ikke logge inn!',
+		1 => 'Kontroller først brukernavnet og passordet. Hvis de er riktige, kan en av to ting ha skjedd. Hvis COPPA-støtte er aktivert og du oppgav alderen din til under 13 ved registreringen, må du følge instruksjonene du fikk. Enkelte systemer vil også kreve at nye registreringer aktiveres, enten av deg selv eller av en administrator, før du kan logge inn. Denne informasjonen ble gitt under registreringen. Hvis du mottok en e-post, følger du instruksjonene. Hvis du ikke mottok noen e-post, har du kanskje oppgitt feil e-postadresse, eller så har e-posten havnet i et spamfilter. Hvis du er sikker på at den angitte e-postadressen er korrekt, kan du kontakte en administrator.'
 	),
 	array(
-		0 => '--',
-		1 => 'Bruker innstillinger'
+		0 => 'Hvorfor kan jeg ikke logge inn?',
+		1 => 'Det er flere grunner til at dette kan skje. Først må du kontrollere at brukernavnet og passordet er korrekt. Hvis de er det, kontakter du en systemadministrator for å forsikre deg om at du ikke har blitt utestengt. Det er også mulig at systemets eier har en konfigurasjonsfeil på sin side, og at de må løse den.',
 	),
 	array(
-		0 => 'Hvordan endrer jeg mine innstillinger?',
-		1 => 'Hvis du er en registrert bruker, blir alle innstillingene lagret i databasen. For å forandre dem, kan du gå til Brukerkontrollpanel, vanligvis plassert øverst på siden. Dette vil gi deg mulighet til å endre alle dine innstillinger.'
+		0 => 'Jeg har registrert meg tidligere, men kan ikke lenger logge på?!',
+		1 => 'Det er mulig at en administrator har deaktivert eller slettet kontoen din av en eller annen grunn. Mange systemer fjerner også fra tid til annen brukere som ikke har skrevet innlegg på lenge, for å redusere størrelsen på databasen. Hvis dette har skjedd, kan du prøve å registrere deg på nytt og delta mer i diskusjonene.'
 	),
 	array(
-		0 => 'Klokken er ikke riktig!',
-		1 => 'Klokken er antakeligvis riktig, men tiden du ser kan være i en annen tidssone enn den du oppholder deg i. Hvis dette er tilfelle, kan du endre tidssonen i Brukerkontrollpanelet til ditt område, f.eks. London, Paris, New York, Sydney, osv. Kun registrerte brukere kan forandre tidssonen. Dersom du ikke er registrert, er dette et fint tidspunkt å registrere deg.'
+		0 => 'Jeg har mistet passordet!',
+		1 => 'Ingen grunn til panikk! Passordet ditt kan ikke hentes ut, men det er enkelt å angi et nytt. Gå til innloggingssiden og klikk <em>Jeg har glemt passordet</em>. Følg instruksjonene, så vil du snart kunne logge inn igjen.<br />Hvis du imidlertid ikke får til å angi nytt passord, kontakter du en systemadministrator.',
 	),
 	array(
-		0 => 'Jeg har forandret tidssonen og tiden er fortsatt feil!',
-		1 => 'Hvis du er sikker på at du har satt tidssonen og sommertidsinnstillingen riktig og tiden fortsatt er feil, så ligger feilen sannsynligvis på serveren. Vennligst kontakt en administrator for å løse problemet.'
+		0 => 'Hvorfor blir jeg logget ut automatisk?',
+		1 => 'Hvis du ikke haker av i boksen <em>Husk meg</em> når du logger inn, vil systemet bare holde deg innlogget i en viss tid. Dette forhindrer at kontoen din blir misbrukt av andre. Hvis du vil forbli innlogget, haker du av i boksen <em>Husk meg</em> ved innlogging. Dette anbefales ikke hvis du bruker systemet fra en delt datamaskin, f.eks. på et bibliotek, en Internett-kafé eller en datastue på en skole eller et universitet. Hvis du ikke ser denne avhakingsboksen, betyr det at en systemadministrator har deaktivert denne funksjonen.',
 	),
 	array(
-		0 => 'Mitt språk er ikke i listen!',
-		1 => 'Enten at administratoren ikke har installert språket eller at ingen har oversatt forumet til ditt språk. Prøv å spørre administratoren om han/hun kan installere språket du trenger. Hvis språket pakken ikke finnes, lag gjerne en ny oversettelse. Mer informasjon finner du på phpBB-gruppen sitt nettsted (se lenke nederst på siden.)'
-	),
-	array(
-		0 => 'Hvordan viser jeg et bilde sammen med mitt brukernavn?',
-		1 => 'Det er to bilder som kan vises sammen med brukernavnet når du ser på innleggene. Ett av dem kan være et bilde som viser din rangering, vanligvis i form av stjerner, blokker eller prikker som indikerer hvor mange innlegg du har postet eller din status i forumet. Det andre er som regel et større bilde som er kalt en avatar og er vanligvis et unikt eller personlig bilde til hver bruker. Det er opp til administratoren å aktivisere avatarer, samt å velge på hvilken måte avatarer kan gjøres tilgjengelig. Dersom du ikke får til å bruke avatarer, kontakt en administrator og spørre dem om hvorfor.'
-	),
-	array(
-		0 => 'Hva er min rangering, og hvordan endrer jeg den?',
-		1 => 'Rangeringen, som vises under ditt brukernavn, indikerer antall innlegg du har postet eller identifisere spesielle brukere, f.eks moderatorer og administratorer. Vanligvis kan du ikke direkte endre ordlyden i forumets rangering da de er satt av administratoren. Vennligst ikke utnytt forumet ved å skrive unødvendig bare for å øke din rangering. De fleste forumer vil ikke tolerere dette, og moderatorene eller administratorene vil senke innleggsantallet ditt.'
-	),
-	array(
-		0 => 'Når jeg trykker på en brukers e-post, blir jeg bedt om å logge inn?',
-		1 => 'Kun registrerte brukere kan sende e-post til andre via den innebygde e-post funksjonen, og bare hvis administratoren har aktivert denne funksjonen. Dette for å hindre mistenkelig bruk av e-postsystemet av anonyme brukere.'
+		0 => 'Hva gjør «Slett alle systemets informasjonskapsler»?',
+		1 => '«Slett alle systemets informasjonskapsler» sletter informasjonskapslene som er opprettet av phpBB, og som holder deg autentisert og innlogget på systemet. Informasjonskapsler har også funksjoner som lesesporing dersom dette er aktivert av en systemadministrator. Hvis du har problemer med inn- eller utlogging, kan det av og til hjelpe å slette systemets informasjonskapsler.',
 	),
 	array(
 		0 => '--',
-		1 => 'Emner og innlegg'
+		1 => 'Brukerpreferanser og innstillinger'
 	),
 	array(
-		0 => 'Hvordan lager jeg et nytt emne i forumet?',
-		1 => 'For å legge inn et nytt emne i ett av forumene, går du først til det relevante forumet og klikker deretter på knappen merket "Nytt emne". I de fleste tilfeller må du være registrert for å kunne lage nye emner. En liste over dine rettigheter i hvert forum er tilgjengelig nederst på siden.'
+		0 => 'Hvordan endrer jeg innstillingene mine?',
+		1 => 'Hvis du er en registrert bruker, lagres alle innstillingene i systemets database. Hvis du vil endre dem, går du til brukerkontrollpanelet. Du finner vanligvis en lenke til dette ved å klikke på brukernavnet ditt øverst på sidene på systemet. Dette systemet lar deg endre alle innstillinger og preferanser.',
 	),
 	array(
-		0 => 'Hvordan endrer eller sletter jeg et innlegg?',
-		1 => 'Med mindre du er administrator eller moderator kan du kun endre eller slette dine egne innlegg. Du kan endre et innlegg ved å klikke på Endre knappen for det relevante innlegget, noen ganger kun for et begrenset tidsrom etter at innlegget ble skrevet. Dersom noen allerede har svart på innlegget, vil du finne en liten tekst nedenfor innlegget når du kommer tilbake til temaet, som viser antall ganger innlegget er endret sammen med dato og klokkeslett. Dette vil kun vises hvis noen har skrevet et svar, det vil ikke vises hvis en moderator eller administrator redigert innlegget, men de kan skrive et notat om hvorfor de har redigert innlegget på eget skjønn. Vær oppmerksom på at vanlige brukere ikke kan slette et innlegg etter at noen har svart.'
+		0 => 'Hvordan forhindrer jeg at brukernavnet mitt vises i listen med brukere som er online?',
+		1 => 'I brukerkontrollpanelet, under «Systempreferanser», finner du alternativet <em>Skjul online-statusen din</em>. Aktiver dette alternativet, så vil du bare være synlig for administratorer, moderatorer og deg selv. Du vil bli talt som en skjult bruker.'
 	),
 	array(
-		0 => 'Hvordan legger jeg til en signatur i innleggene mine?',
-		1 => 'For å legge til en signatur i et innlegg må du først lage en i brukerkontrollpanelet. Når den er laget, kan du merke <em>Legg ved signatur</em> boksen på innleggsiden for å legge til signaturen din. Du kan også legge til en signatur som standard i alle dine innlegg ved å hake av knappen i profilen din. Hvis du gjør det, kan du fortsatt hindre at en signatur blir lagt til i individuelle innlegg ved og haken av Legg ved signatur boksen når du skriver innlegget.'
+		0 => 'Klokkeslettene stemmer ikke!',
+		1 => 'Det er mulig at klokkeslettet som vises, er fra en annen tidssone enn den du befinner deg i. Hvis dette er tilfelle, kan du gå til brukerkontrollpanelet og endre tidssoneinnstillingen slik at den samsvarer med hvor du befinner deg, f.eks. Oslo, København, New York, Sydney, osv. Merk at endring av tidssone, i likhet med de fleste andre innstillinger, bare er mulig for registrerte brukere. Hvis du ikke har registrert deg, er dette en grunn til å gjøre akkurat det.'
 	),
 	array(
-		0 => 'Hvordan lager jeg en avstemning?',
-		1 => 'Når du skriver en ny tråd eller redigerer det første innlegget i et emne, fyll ut "Lag avstemning" delen nedenfor innlegget, hvis du ikke kan se dette, har du ikke rettigheter til å lage avstemninger. Skriv en tittel og minst to alternativene i de aktuelle feltene, sørg for at hvert alternativ er på en egen linje i tekstområdet. Du kan også angi hvor mange alternativer brukere kan velge under avstemning under "Antall alternativer per bruker", en frist i dager for avstemningen (0 for uendelig varighet) og til slutt muligheten til å tillate brukere å endre sine stemmer.'
+		0 => 'Jeg har endret tidssone, men klokkeslettet er fortsatt feil!',
+		1 => 'Hvis du er sikker på at du har angitt riktig tidssone og klokkeslettet fortsatt er feil, går serverklokken feil. Be en administrator om å løse problemet.'
 	),
 	array(
-		0 => 'Hvorfor kan jeg ikke legge til flere alternativer i avstemningen?',
-		1 => 'Grensen for svaralternativer er satt av administratoren. Hvis du føler at du trenger å legge til flere alternativer, enn det tillatte antallet, ta kontakt med administratoren.'
+		0 => 'Språket mitt finnes ikke i listen!',
+		1 => 'Enten har ikke administratoren installert språket ditt, eller så har ingen oversatt dette systemet til språket ditt. Be en systemadministrator om å installere språkpakken du trenger. Hvis språkpakken ikke finnes, kan du bidra med en ny oversettelse selv. Du finner mer informasjon på nettstedet til <a href="https://www.phpbb.com/">phpBB</a>&reg;.',
 	),
 	array(
-		0 => 'Hvordan endrer eller sletter jeg en avstemning?',
-		1 => 'Som med innlegg kan avstemningen bare bli redigert av den som skrev det originale innlegget, moderatorer eller administrator. For å endre en avstemning, klikk for å redigere det første innlegget i temaet, dette vil alltid inneholde avstemningen. Dersom ingen har avlagt en stemme kan brukeren slette avstemningen eller endre svaralternativene. Men hvis medlemmer har stemt, kan bare moderatorer og administratorer redigere eller slette den. Dette hindrer at noen jukser ved å bytte valg halvveis inne i avstemningen.'
+		0 => 'Hva er bildene ved siden av brukernavnet mitt?',
+		1 => 'Det finnes to bilder som kan bli vist sammen med et brukernavn når man ser på innlegg. Et av dem kan være et bilde som er tilknyttet graden din, vanligvis i form av stjerner, firkanter eller prikker, som viser hvor mange innlegg du har skrevet, eller hvilken status du har på systemet. Et annet, vanligvis større bilde, er kjent som en avatar, og er vanligvis unikt eller personlig for hver enkelt bruker.',
 	),
 	array(
-		0 => 'Hvorfor har jeg ikke tilgang til et forum?',
-		1 => 'Enkelte forumer kan være begrenset til noen brukere eller grupper. For å lese, poste eller utføre en annen handling trenger du spesielle tillatelser. Ta kontakt med en moderator eller administratoren for å gi deg tilgang.'
+		0 => 'Hvordan viser jeg en avatar?',
+		1 => 'I brukerkontrollpanelet, under «Profil», kan du legge til en avatar med en av følgende fire metoder: Gravatar, Galleri, Ekstern eller Opplasting. Det er opp til systemadministratoren å aktivere avatarer og velge hvilke måter avatarene kan gjøres tilgjengelig på. Hvis du ikke kan bruke avatarer, kan du kontakte en systemadministrator.',
 	),
 	array(
-		0 => 'Hvorfor kan jeg ikke legge ved vedlegg?',
-		1 => 'Vedlegg tillatelser er gitt på en per forum, per gruppe, eller per bruker basis. Administratoren har kanskje ikke tillatt vedlegg i det spesifikke forumet du skriver i, eller kanskje bare visse grupper kan legge til vedlegg. Kontakt administratoren hvis du er usikker på hvorfor du ikke klarer å legge til vedlegg.'
+		0 => 'Hva er graden min, og hvordan kan jeg endre den?',
+		1 => 'Graden, som vises under brukernavnet ditt, viser hvor mange innlegg du har skrevet eller identifiserer visse brukere, for eksempel moderatorer og administratorer. Vanligvis kan du ikke endre ordlyden i systemgrader, ettersom disse angis av systemadministratoren. Ikke misbruk systemet ved å skrive innlegg bare med den hensikt å øke graden din. De fleste systemer vil ikke akseptere dette, og moderatoren eller administratoren kan ganske enkelt redusere innleggstallet ditt.'
 	),
 	array(
-		0 => 'Hvorfor har jeg fått en advarsel?',
-		1 => 'Hver administrator har sitt eget sett med regler for deres nettsted. Hvis du har brutt en regel, kan du få utstedt en advarsel. Vær oppmerksom på at dette er administratorenes avgjørelse, og phpBB-gruppen har ingenting å gjøre med advarsler på en gitt side. Kontakt administratoren hvis du er usikker på hvorfor du har fått en advarsel.'
+		0 => 'Når jeg klikker på e-postlenken til en bruker, blir jeg bedt om å logge inn?',
+		1 => 'Bare registrerte brukere kan sende e-post til andre brukere gjennom det innebygde e-postskjemaet, og bare hvis administratoren har aktivert denne funksjonen. Dette er for å forhindre ondsinnet bruk av e-postsystemet fra anonyme brukere.'
+	),
+	array(
+		0 => '--',
+		1 => 'Innleggsproblemer'
+	),
+	array(
+		0 => 'Hvordan oppretter jeg et nytt emne eller skriver et svar?',
+		1 => 'Hvis du vil opprette et nytt emne i et forum, klikker du «Nytt emne». Hvis du vil svare på et emne, klikker du «Svar». Du må kanskje registrere deg før du kan skrive innlegg. En listen over tillatelser i hvert enkelt forum finnes nederst på forum- og emneskjermene. For eksempel: Du kan opprette nye emner, Du kan laste opp vedlegg, osv.',
+	),
+	array(
+		0 => 'Hvordan redigerer eller sletter jeg et innlegg?',
+		1 => 'Med mindre du er en systemadministrator eller en moderator, kan du bare redigere eller slette dine egne innlegg. Du kan redigere et innlegg ved å klikke på redigeringsknappen for det aktuelle innlegget, i noen tilfeller innenfor en viss tid etter at innlegget ble skrevet. Hvis noen allerede har besvart innlegget, vil du finne en liten tekstsnutt under innlegget når du går tilbake til emnet, som viser antall ganger du har redigert det, sammen med dato og klokkeslett. Dette vises bare hvis noen har besvart innlegget. Det vises ikke hvis en moderator eller en administrator har redigert innlegget, men de kan imidlertid velge å skrive inn en merknad om endringene de har gjort. Merk at vanlige brukere ikke kan slette et innlegg etter at noen har besvart det.'
+	),
+	array(
+		0 => 'Hvordan legger jeg til en signatur i innlegget mitt?',
+		1 => 'Hvis du vil legge til en signatur i et innlegg, må du først lage en i brukerkontrollpanelet. Når du har laget den, kan du hake av i boksen <em>Legg ved signatur</em>på innleggsskjemaet for å legge til signaturen din. Du kan også legge til en signatur som standard i alle innleggene dine ved å hake av i den aktuelle radioknappen i brukerkontrollpanelet. Hvis du gjør dette, kan du fortsatt hindre signaturen i å bli vist i enkeltinnlegg ved å fjerne haken for å legge ved signatur på innleggsskjemaet.'
+	),
+	array(
+		0 => 'Hvordan oppretter jeg en avstemming?',
+		1 => 'Når du skriver et nytt innlegg eller redigerer det første innlegget i et emne, klikker du på fanen «Avstemming» under hovedskjemaet for innlegget. Hvis du ikke ser dette, har du ikke de nødvendige tillatelser for å opprette avstemminger. Skriv inn en tittel og minst to alternativer i de aktuelle feltene, og sørg for at hvert alternativ skrives på sin egen linje i tekstfeltet. Du kan også angi hvor mange alternativer brukerne kan velge under avstemmingen, under «Alternativer per bruker», en tidsbegrensning for avstemmingen (0 for uendelig) og til slutt alternativet for å la brukerne endre sine stemmer.'
+	),
+	array(
+		0 => 'Hvorfor kan jeg ikke legge til flere alternativer i avstemmingen?',
+		1 => 'Grensen for antall alternativer i avstemminger angis av systemadministratoren. Hvis du synes du trenger flere alternativer i avstemmingen enn det du får lov til, kan du kontakte systemadministratoren.'
+	),
+	array(
+		0 => 'Hvordan redigerer eller sletter jeg en avstemming?',
+		1 => 'På samme måte som med innlegg, kan avstemminger bare endres av den opprinnelige innleggsforfatteren, en moderator eller en administrator. Hvis du vil redigere en avstemming, klikker du for å redigere det første innlegget i emnet – avstemmingen er alltid tilknyttet dette. Hvis ingen har avgitt stemmer, kan man slette avstemmingen og redigere avstemmingsalternativene. Hvis noen imidlertid har avgitt stemmer, kan bare moderatorer og administratorer redigere eller slette den. Dette forhindrer at avstemmingsalternativene endres mens en avstemming pågår.'
+	),
+	array(
+		0 => 'Hvorfor får jeg ikke tilgang til et forum?',
+		1 => 'Enkelte fora kan være begrenset til visse brukere eller grupper. Hvis du vil se, lese, skrive eller gjøre andre ting, trenger du kanskje bestemte tillatelser. Kontakt en moderator eller en systemadministrator for å få dem til å gi deg tilgang.'
+	),
+	array(
+		0 => 'Hvorfor kan jeg ikke legge til vedlegg?',
+		1 => 'Vedleggstillatelser tildeles per forum, per gruppe eller per bruker. Systemadministratoren har kanskje ikke tillatt vedlegg i akkurat det forumet du skriver i, eller så kan kanskje bare enkelte grupper legge til vedlegg. Kontakt systemadministratoren hvis du er usikker på hvorfor du ikke kan legge til vedlegg.'
+	),
+	array(
+		0 => 'Hvorfor har jeg mottatt en advarsel?',
+		1 => 'Alle systemadministratorer har sine egne regler for sitt system. Hvis du har brutt en regel, kan du bli gitt en advarsel. Merk at dette er systemadministratorens avgjørelse, og phpBB Limited har ingenting å gjøre med advarsler på dette systemet. Kontakt systemadministratoren hvis du er usikker på hvorfor du ble gitt en advarsel.'
 	),
 	array(
 		0 => 'Hvordan kan jeg rapportere innlegg til en moderator?',
-		1 => 'Hvis administratoren har tillatt det, bør du se en knapp for rapportering av innlegg ved siden av innlegget du ønsker å rapportere. Ved å klikke på denne vil det lede deg gjennom de nødvendige skritt for å rapportere innlegget.'
+		1 => 'Hvis systemadministratoren har tillatt det, skal du se en knapp for å rapportere innlegg, ved siden av innlegget du vil rapportere. Hvis du klikker på denne, tas du gjennom de nødvendige trinnene for å rapportere innlegget.'
 	),
 	array(
-		0 => 'Hva brukes "Lagre"-knappen til, som vises når jeg skriver et innlegg?',
-		1 => 'Dette tillater deg å lagre meldinger slik at de kan fylles ut og sendes på et senere tidspunkt. For å hente opp en lagret meldinger, besøke Brukerkontrollpanel.'
+		0 => 'Hva er «Lagre»-knappen til i emneskjemaet?',
+		1 => 'Denne lar deg lagre en kladd som skal fullføres og sendes inn senere. Du finner tilbake til lagrede kladder i brukerkontrollpanelet.'
 	),
 	array(
 		0 => 'Hvorfor må innlegget mitt godkjennes?',
-		1 => 'Forumets administrator kan ha valgt at alle innlegg i forumet du skriver i kreve godkjenning før de vises. Det er også mulig at administratoren har plassert deg i en gruppe av brukere som gjør at dine innlegg må godkjennes før visning. Vennligst kontakt administratoren for ytterligere detaljer.'
+		1 => 'Systemadministratoren kan ha bestemt at innlegg i forumet du skriver i, må kontrolleres før det legges ut. Det er også mulig at administratoren har plassert deg i en brukergruppe hvor alle brukeres innlegg må kontrolleres før de legges ut. Kontakt systemadministratoren for flere detaljer.'
 	),
 	array(
-		0 => 'Hvordan flytter jeg emnet mitt til toppen?',
-		1 => 'Ved å klikke på linken "Flytt til toppen" når du leser et emne, kan du flytte emnet til toppen av emnelisten. Hvis du ikke kan se koblingen, kan det være at dette alternativet ikke er aktivert eller at tiden som kreves før dette er tillatt ikke har gått. Du kan også flytte emnet øverst ved å svare på emnet. Men pass på at du følger forumets regler når du gjør dette.'
+		0 => 'Hvordan kan jeg fremheve emnet mitt?',
+		1 => 'Ved å klikke «Fremhev emne» når du viser det, kan du fremheve emnet til øverst på forsiden. Hvis du imidlertid ikke ser denne knappen, er kanskje fremheving deaktivert, eller så er ikke minstetiden mellom fremhevinger nådd ennå. Det er også mulig å fremheve emnet ganske enkelt ved å svare på det. Husk imidlertid å følge systemets regler når du gjør dette.'
 	),
 	array(
 		0 => '--',
 		1 => 'Formatering og emnetyper'
 	),
 	array(
-		0 => 'Hva er BBCode/BBkoder?',
-		1 => 'BBKode er en variasjon av HTML. Om BBKode kan brukes i forumet, er bestemt av administratoren. Du kan også deaktivere BBKode i et innlegg når du skriver eller endrer innlegget. BBKode ligner på HTML i formateringen, men taggene er omringet av firkantparenteser [ og ] i stedet for &lt; og &gt; og gir en bedre kontroll over hvordan noe blir vist. Mer informasjon om BBkode finner du i guiden det blir lenket til fra siden der du skriver innlegget ditt.'
+		0 => 'Hva er BBCode?',
+		1 => 'BBCode er en spesiell implementering av HTML, som gir kontroll over formatering av visse objekter i innlegg. Om BBCode kan brukes, er bestemt av administratoren, men det er mulig å deaktivere dette per innlegg fra innleggsskjemaet. BBCode er i seg selv ganske likt HTML, men taggene omsluttes av firkantklammene [ og ] i stedet for &lt; og &gt;. Du finner mer informasjon om BBCode i veiledningen som du får tilgang til fra innleggssiden.'
 	),
 	array(
 		0 => 'Kan jeg bruke HTML?',
-		1 => 'Nei, det er ikke mulig å bruke HTML på dette. De fleste ting som kan utføres ved hjelp av HTML kan utføres med BBKode i stedet.'
+		1 => 'Nei. Det er ikke mulig å skrive HTML på dette systemet og få det vist som HTML. Det meste av formatering som kan utføres med HTML, kan utføres med BBCode i stedet.'
 	),
 	array(
-		0 => 'Hva er smil?',
-		1 => 'Smil er små bilder som kan brukes til å uttrykke følelser ved å bruke en kort kode, f.eks :) Betyr glad,:( betyr trist. Hele listen av smil kan sees på innleggsiden. Prøv og begrense bruken av smil, da disse kan gjøre et innlegg uleselig og en moderator kan redigere dem bort eller slette innlegget helt. Forum administrator kan også ha satt en grense for hvor mange smilefjes du kan bruke i et innlegg.'
+		0 => 'Hva er smilefjes?',
+		1 => 'Smilefjes, eller emotikoner, er små bilder som kan brukes til å uttrykke følelser med en kort kode, f.eks. angir :) at man smiler, mens :( viser at man er lei seg. Du kan se alle emotikonene i innleggsskjemaet. Unngå å bruke smilefjes for mye, ettersom det raskt kan gjøre et innlegg uleselig, og dermed bli redigert bort av en moderator, om ikke hele innlegget blir fjernet. Systemadministratoren kan også ha angitt en grense for hvor mange smiljefjes du kan bruke i et innlegg.'
 	),
 	array(
-		0 => 'Kan jeg bruke bilder?',
-		1 => 'Ja, du kan bruke bilder i dine innlegg. Hvis administratoren har tillatt vedlegg, kan du være i stand til å laste opp bilder til forumet. Ellers må du linke til et bilde som ligger på en offentlig Internett server, f.eks http://www.example.com/my-picture.gif. Du kan ikke linke til et bilde på din egen PC (med mindre det er en offentlig tilgjenglig server) eller bilder lagret bak passordmekanismer, som f.eks hotmail eller yahoo postkasser, passordbeskyttede sider, osv. For å vise et bilde kan bruke BBKode [img] taggen.'
+		0 => 'Kan jeg legge inn bilder?',
+		1 => 'Ja, bilder kan vises i innleggene dine. Hvis administratoren har tillatt vedlegg, kan det hende du kan laste opp bildet til systemet. Hvis ikke, må du lage en lenke til et bilde som er lagret på en offentlig tilgjengelig webserver, f.eks. http://www.example.com/mitt-bilde.gif. Du kan ikke lenke til bilder som er lagret på din egen PC (med mindre den er en offentlig tilgengelig server) eller bilder som er lagret bak autentiseringsmekanismer, f.eks. Hotmail- eller Yahoo-e-postbokser, passordbeskyttede nettsteder osv. Bruk BBCode-taggen [img].'
 	),
 	array(
-		0 => 'Hva er globale annonseringer?',
-		1 => 'Globale annonseringer inneholder viktig informasjon og bør leses snarest mulig. De vil vises på toppen av alle forumene og i Brukerkontrollpanelet. Global kunngjøring tillatelser er gitt av administratoren.'
+		0 => 'Hva er globale kunngjøringer?',
+		1 => 'Globale kunngjøringer inneholder viktig informasjon, og bør alltid leses. De vises øverst i alle fora og i brukerkontrollpanelet. Tillatelse til globale kunngjøringer gis av systemadministratoren.'
 	),
 	array(
-		0 => 'Hva er annonseringer?',
-		1 => 'Annonseringer er ofte viktig informasjon for forumet du nå leser og bør leses snarest mulig. Annonseringer vises øverst på alle sidene i det forumet de er postet. Som med globale annonseringer, er tillatelser gitt av administratoren.'
+		0 => 'Hva er kunngjøringer?',
+		1 => 'Kunngjøringer inneholder ofte viktig informasjon for forumet du leser i, og du bør lese dem når du kan. Kunngjøringer vises øvrste på alle sider i forumene de er lagt inn i. På samme måte som for globale kunngjøringer, er det systemadministratoren som gir tillatelse til å bruke dette.'
 	),
 	array(
-		0 => 'Hva er prioriterte emner?',
-		1 => 'Prioriterte emner i forumet vises under annonseringene og kun på den første siden. De er som regel ganske viktige, så de bør leses snarest mulig. Som med kunngjøringer og globale annonseringer, er prioriterte tema tillatelser gitt av administratoren.'
+		0 => 'Hva er festede emner?',
+		1 => 'Festede emner i et forum vises under kunngjøringene og bare på første side. Disse er ofte ganske viktige, så du bør lese dem når du kan. På samme måte som for kunngjøringer og globale kunngjøringer, er det systemadministratoren som gir tillatelse til å bruke festede emner.'
 	),
 	array(
-		0 => 'Hva er stengte emner?',
-		1 => 'Stengte emner er emner der brukere ikke lenger kan besvare, og eventuelle avstemninger er automatisk avsluttet. Temaer kan bli avsluttet av mange grunner, og stengt av enten moderatoren eller administratoren. Du kan også være i stand til å stenge dine egene emner, avhengig av hvilke rettigheter du er gitt av administratoren.'
+		0 => 'Hva er låste emner?',
+		1 => 'Låste emner er emner hvor brukerne ikke lenger kan svare og eventuelle avstemminger avsluttes automatisk når et emne låses. Det kan være mange grunner til å låse et emne, og det kan gjøres av moderatorer og systemadministratorer. Du kan kanskje også låse dine egne emner, avhengig av hvilke tillatelser systemadministratoren har gitt deg.'
 	),
 	array(
 		0 => 'Hva er emneikoner?',
-		1 => 'Emneikoner er bilder valgt av forfatteren, forbundet med innlegg for å indikere dets innhold. Muligheten til å bruke emneikoner er avhengig av hvilke rettigheter administratoren har gitt.'
+		1 => 'Emneikoner er bilder som forfatteren velger for å gi en ide om innholdet i innlegg. Hvorvidt man kan bruke emneikoner, avhenger av hvilke tillatelser systemadministratoren har angitt.'
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -213,36 +219,36 @@ $help = array(
 		1 => 'Brukernivåer og grupper'
 	),
 	array(
-		0 => 'Hva er en administrator?',
-		1 => 'Administratorer er medlemmer som er tildelt den høyeste grad av kontroll over hele forumet. Disse medlemmene kan kontrollere alle funksjoner for forumets drift, inkludert rettigheter, utestenge brukere, lage brukergrupper eller moderatorer osv, avhengig av forumets grunnlegger og hvilke rettigheter han/hun har gitt de andre administratorene. De kan også ha fulle moderator rettighet i alle forumene, avhengig av innstillingene gjort av forumets grunnlegger.'
+		0 => 'Hva er administratorer?',
+		1 => 'Administratorer er brukere som er gitt det høyeste kontrollnivå for systemet. Disse brukerne kan styre alle aspekter ved driften av systemet, inkludert å gi tillatelser, stenge ute brukere, opprette brukergrupper, utnevne moderatorer osv., avhengig av hvilke tillatelser systemets eier har gitt de andre administratorene. De kan også ha fullverdige moderatorrettigheter i alle fora, avhengig av hvilke innstillinger systemets eier har gitt.'
 	),
 	array(
-		0 => 'Hva er en moderator?',
-		1 => 'Moderatorer er enkeltpersoner (eller grupper av brukere) som skal overvåke forumet fra dag til dag. De har myndighet til å redigere eller slette innlegg og låse, låse opp, flytte, slette og dele temaer i det forumet de modererer. Vanligvis er moderatorer der for å hindre brukere fra å gå utenfor tema eller skrive upassende eller støtende innlegg.'
+		0 => 'Hva er moderatorer?',
+		1 => 'Moderatorer er enkeltpersoner (eller grupper med enkeltpersoner) som passer på forumene i det daglige. De har autoritet til å redigere eller slette innlegg og låse, låse opp, flytte, slette og splitte emner i forumet de modererer. Vanligvis finnes moderatorer for å hindre brukere i å spore av emner eller skrive støtende eller injurierende innhold.'
 	),
 	array(
-		0 => 'Hva er en brukergruppe?',
-		1 => 'Brukergrupper er grupper av brukere som forumet kan deles inn i for å forenkle arbeidet til administratorene. Hver bruker kan høre til flere grupper og hver gruppe kan bli gitt individuelle rettigheter. Dette gjør det lett for administratoren å endre tillatelser for mange brukere på en gang, som moderator rettigheter eller å gi brukere tilgang til et privat forum.'
+		0 => 'Hva er brukergrupper?',
+		1 => 'Brukergrupper er grupper av brukere som deler brukermassen inn i håndterbare størrelser som systemadministratorene kan arbeide med. Brukere kan tilhøre flere grupper, og alle grupper kan være tilordnet et sett med tillatelser. Dette gjør det enklere for administratorene å endre tillatelser for mange brukere på én gang, for eksempel å endre moderatortilganger eller gi brukere tilgang til et privat forum.'
 	),
 	array(
-		0 => 'Hvor finner jeg brukergruppene og hvordan blir jeg medlem av en?',
-		1 => 'Du kan se alle brukergruppene via "Grupper"-linken i Brukerkontrollpanelet. Hvis du ønsker å bli medlem av en, fortsetter ved å klikke på riktig knapp. Ikke alle grupper er offentlig tilgjengelige. Noen kan kreve godkjenning for å delta, noen kan være stengt og noen kan til og med ha skjult medlemskap. Dersom gruppen er åpen, kan du bli medlem ved å klikke på riktig knapp. Hvis en gruppe krever godkjenning for og delta kan du be om å bli med ved å klikke på riktig knapp. Gruppeleder må godkjenne din forespørsel og kan spørre hvorfor du vil bli medlem av gruppen. Vennligst godta gruppemoderatorens svar hvis de avviser deg, de har helt sikkert sine grunner.'
+		0 => 'Hvor er brukergruppene, og hvordan blir jeg med i en?',
+		1 => 'Du kan vise alle brukergrupper med lenken «Brukergrupper» i brukerkontrollpanelet. Hvis du vil bli med i en av dem, fortsetter du ved å klikke på den aktuelle knappen. Alle grupper er imidlertid ikke åpne. Enkelte kan kreve godkjenning for å bli med, andre kan være lukket og atter andre kan til og med være skjulte. Hvis bruppen er åpen, kan du bli med i den ved å klikke på den aktuelle knappen. Hvis gruppen krever godkjenning for å bli mer, kan du be om å få bli med ved å klikke påd en aktuelle knappen. En brukergruppeleder må godkjenne forespørselen og kan spørre deg om hvorfor du ønsker å bli med i gruppen. Ikke plag en gruppeleder hvis de avviser forespørselen din – de har nok sine grunner.'
 	),
 	array(
-		0 => 'Hvordan blir jeg leder av en brukergruppe?',
-		1 => 'En gruppemoderator er vanligvis tildelt når Brukergrupper blir startet av administratoren. Hvis du er interessert i å starte en brukergruppe, bør ditt første kontaktpunkt være administrator, prøv å sende en privat melding.',
+		0 => 'Hvordan blir jeg en brukergruppeleder?',
+		1 => 'En brukergruppeleder tilordnes vanligvis når brukergruppene først opprettes av en systemadministrator. Hvis du ønsker å opprette en brukergruppe, bør du aller først kontakte en administrator - prøv å sende en privat melding.',
 	),
 	array(
-		0 => 'Hvorfor vises enkelte brukergrupper i en annen farge?',
-		1 => 'Det er mulig for administratorene å tildele forskjellige farger til medlemmene av en brukergruppe for å gjøre det enklere å identifisere medlemmene av denne gruppen.'
+		0 => 'Hvorfor vises enkelte brukergrupper med en annen farge?',
+		1 => 'Systemadministratoren kan tilordne en farge til brukerne i en brukergruppe for å gjøre det enklere å identifisere brukerne i denne gruppen.'
 	),
 	array(
-		0 => 'Hva er en "Standardgruppe"?',
-		1 => 'Hvis du er medlem av mer enn en brukergruppe, brukes standardgruppen å bestemme hvilken gruppe farge og gruppe rang som skal vises for. Administratoren kan gi deg tillatelse til å endre standard brukergruppe via Brukerkontrollpanelet.'
+		0 => 'Hva er en «Standard brukergruppe»?',
+		1 => 'Hvis du er med i flere enn én brukergruppe, brukes standarden til å fastslå hvilken gruppefarge og gruppegrad som skal vises for deg som standard. Systemadministratoren kan gi deg tillatelse til å endre standard brukergruppe i brukerkontrollpanelet.'
 	),
 	array(
-		0 => 'Hva er “Forumledelse” linken?',
-		1 => 'Denne siden gir deg navnene på personene bak dette forumet som administratorer, moderatorer og hvilke forumer disse modererer.'
+		0 => 'Hva er «Teamet»-lenken?',
+		1 => 'Denne siden gir deg en liste over systemets personale, inkludert systemadministratorer og moderatorer i tillegg til andre detaljer, som hvilke fora de modererer.'
 	),
 	array(
 		0 => '--',
@@ -250,96 +256,102 @@ $help = array(
 	),
 	array(
 		0 => 'Jeg kan ikke sende private meldinger!',
-		1 => 'Det er tre grunner til dette, du er ikke registrert og/eller ikke logget inn, administratoren har deaktivert private meldinger for hele forumet eller administratoren har stoppet deg fra å sende meldinger. Kontakt en administrator for mer informasjon.'
+		1 => 'Det kan være tre årsaker til dette: Du er ikke registrert og/eller logget inn, systemadministratoren har deaktivert private meldinger på systemet eller så har administratoren hindret deg i å sende meldinger. Kontakt en systemadministrator for mer informasjon.'
 	),
 	array(
-		0 => 'Jeg fortsetter å få uønskede private meldinger!',
-		1 => 'Du kan blokkere en bruker fra å sende deg private meldinger ved hjelp av melding reglene i brukerkontrollpanelet. Hvis du fortsetter å motta uønskede private meldinger fra en bestemt bruker, informer en av administratorene, de har makt til å forhindre en bruker fra å sende private meldinger.'
+		0 => 'Jeg får stadig uønskede private meldinger!',
+		1 => 'Du kan slette private meldinger fra en bruker automatisk ved hjelp av meldingsregler i brukerkontrollpanelet. Hvis du mottar plagsomme private meldinger fra en bestemt bruker, kan du rapportere meldingene til moderatorene – de har mulighet til å hindre en bruker i å sende private meldinger.'
 	),
 	array(
-		0 => 'Jeg har mottatt spam, upassende eller støtende e-post fra noen på dette forumet!',
-		1 => 'Vi beklager å høre dette. E-post funksjonen i dette forumet har en sikkerhetsmekanisme for å prøve å spore brukere som sender slike meldinger, så send en e-post til administratoren med en full kopi av e-posten du mottok. Det er veldig viktig at du inkluderer toppen (header) da denne inneholder detaljer om hvilken bruker som sendte e-post. Administratoren kan da ta affære.'
-	),
-	array(
-		0 => '--',
-		1 => 'Venner og Blokkerte brukere'
-	),
-	array(
-		0 => 'Hva inneholder listene Venner og Blokkerte brukere?',
-		1 => 'Du kan bruke disse listene til å organisere andre forummedlemmer. Brukere du legger som venner vil bli listet opp i brukerkontrollpanelet slik at du raskt kan se om disse er pålogget og kan sende dem private meldinger. Med forbehold om støtte i malen, kan innlegg fra disse brukerne også bli markert. Hvis du legger til en bruker i Blokkerte brukere listen, vil alle innlegg de være skjult som standard.'
-	),
-	array(
-		0 => 'Hvordan kan jeg legge til/fjerner brukere fra listen over venner og blokkerte brukere?',
-		1 => 'Du kan legge til brukere i listene dine på to måter. Innenfor hver brukers profil, er det en lenke for å legge dem til enten Venner eller Blokkerte brukere. Alternativt fra din Brukers kontrollpanel, kan du direkte legge til brukere ved å oppgi brukernavnene. Du kan også fjerne brukere fra dine lister på samme måte.'
+		0 => 'Jeg har mottatt spam eller plagsom e-post fra noen på dette systemet!',
+		1 => 'Dette er vi lei for. Funksjonen med e-postskjema på dette systemet har mekanismer for å prøve å spore brukere som sender slikt, så send en e-post til systemadministratoren med en fullstendig kopi av e-posten du mottok. Det er svært viktig at denne inneholder alle meldingshodene som gir detaljer om brukeren som sendte e-posten. Systemadministratoren kan deretter treffe tiltak.'
 	),
 	array(
 		0 => '--',
-		1 => 'Søking i forumet'
+		1 => 'Venner og uvenner'
 	),
 	array(
-		0 => 'Hvordan kan jeg søke i forumet?',
-		1 => 'Skriv inn et søkeord i søkefeltet som du finner på hovedsiden, underforum eller emne sider. Avansert søk kan gjøres ved å klikke på "Avansert Søk" linken som er tilgjengelig på alle sider på forumet. Hvordan du får tilgang til søkefunksjonen kan avhenge av stilen som brukes.'
+		0 => 'Hva er Venner- og Uvenner-listene mine?',
+		1 => 'Du kan bruke disse listene til å organisere andre brukere på systemet. Brukere du legger til på vennelisten, vil bli vist for hurtigtilgang i brukerkontrollpanelet, slik at du raskt kan se online-statusen deres og sende dem private meldinger. Avhengig av om malene støtter det, kan også innlegg fra disse brukerne bli uthevet. Hvis du legger til en bruker i Uvenner-listen, vil alle innlegg fra dem være skjult som standard.'
 	),
 	array(
-		0 => 'Hvorfor gir ikke søket mitt noe resultat?',
-		1 => 'Søket ditt var sannsynligvis for vagt og inkluderte mange vanlige ord som derfor ikke indekseres av phpBB3. Vær mer konkret og bruke alternativene tilgjengelige i Avansert søk.'
-	),
-	array(
-		0 => 'Hvorfor gir søket mitt en blank side!?',
-		1 => 'Ditt søk returnerte flere resultater enn webserveren kunne håndtere. Bruk "Avansert søk" og vær mer spesifikk i begrepene som brukes og forumene det skal søkes i.'
-	),
-	array(
-		0 => 'Hvordan søker jeg etter medlemmer?',
-		1 => 'Gå til medlemssiden og klikk på "Søk etter medlem" linken. Der får du opp et søkeområde der du kan spesifisere søket ditt.'
-	),
-	array(
-		0 => 'Hvordan kan jeg finne mine egne innlegg og emner?',
-		1 => 'Dine egne innlegg kan bli funnet enten ved å klikke på "Søk etter brukerens innlegg" i brukerkontrollpanelet eller via din egen profilside. For å søke etter emner, bruk den vanlige avanserte søkesiden og fyll i de ulike alternativene riktig.'
+		0 => 'Hvordan legger jeg til eller fjerner brukere fra Venner- eller Uvenner-listene mine?',
+		1 => 'Du kan legge til brukere på listen på to måter. Når du viser brukerens profil, er det en lenke der for å legge dem til på enten Venner- eller Uvenner-listen. Alternativt kan du fra brukerkontrollpanelet legge til brukere direkte ved å skrive inn brukernavnet deres. Du kan også fjerne brukere fra listen på samme side.'
 	),
 	array(
 		0 => '--',
-		1 => 'Emneabonnementer og bokmerker'
+		1 => 'Søke i foraene'
 	),
 	array(
-		0 => 'Hva er forskjellen på bokmerker og abonnementer?',
-		1 => 'Bokmerkene i phpBB3 fungerer på samme måte som bokmerker i nettleseren. Du blir ikke varslet når det finnes en oppdatering, men du kan komme tilbake til temaet senere. Abonnering derimot, vil varsle deg når det er en oppdatering i emnet eller forumet du abonnerer på, via din valgte metode eller metoder.'
+		0 => 'Hvordan kan jeg søke i et forum eller flere fora?',
+		1 => 'Skriv inn en søketekst i søkeboksen på indeks-, forum- eller emnesidene. Du får tilgang til avanserte søk ved å klikke «Avansert søk», som er tilgjengelig FRA alle sider på forumet. Hvordan du finner søket, avhenger av stilen som brukes.'
 	),
 	array(
-		0 => 'Hvordan abonnerer jeg på spesifikke emner eller forumer?',
-		1 => 'For å abonnere på et spesifikt forum, klikker du på "Abonner på forumet" linken du finner når du går inn på forumet. For å abonnere på et emne, svar på emnet med abonner boksen merket av, eller klikk på "Abonner på emnet" linken i selve emnet.'
+		0 => 'Hvorfor gav ikke søket mitt noen resultater?',
+		1 => 'Søket ditt var sannsynligvis for vagt og inneholdt mange vanlige ord som ikke indekseres av phpBB. Vær mer spesifikk og bruk alternativene som er tilgjengelige under Avansert søk.',
 	),
 	array(
-		0 => 'Hvordan avslutter jeg mine abonnement?',
-		1 => 'For å avslutte et abonnement går du til brukerkontrollpanelet og følg linken til dine abonnementer.'
+		0 => 'Hvorfor gav søket meg en tom side!?',
+		1 => 'Søket gav flere resultater enn webserver kunne håndtere. Bruk «Avansert søk» og vær mer spesifikk med tanke på søkeordene og foraene det skal søkes i.'
+	),
+	array(
+		0 => 'Hvordan søker jeg etter brukere?',
+		1 => 'Gå til siden «Forumbrukere» og klikk lenken «Finn en forumbruker».'
+	),
+	array(
+		0 => 'Hvordan finner jeg mine egne innlegg og emner?',
+		1 => 'Du kan hente frem dine egne innlegg enten ved å klikke «Vis dine innlegg» i brukerkontrollpanelet, ved å klikke «Søk i brukes innlegg» på din egen profilside eller ved å klikke «Hurtiglenker» øverst i systemet. For å søke etter emnene dine, kan du bruke Avansert søk-siden og fylle ut de aktuelle alternativene.',
+	),
+	array(
+		0 => '--',
+		1 => 'Abonnementer og bokmerker',
+	),
+	array(
+		0 => 'Hva er forskjellen mellom bokmerker og abonnering?',
+		1 => 'I phpBB 3.0 fungerte bokmerking av emner ganske likt som bokmerking i en nettleser. Du ble ikke varslet når noe ble endret. I phpBB 3.1 er bokmerking mer som å abonnere på et emne. Du kan bli varslet når et bokmerket emne oppdateres. Abonnering vil imidlertid varsle deg når noe oppdateres i et emne eller et forum i systemet. Varslingsalternativene for bokmerker og abonnementer kan konfigureres i brukerkontrollpanelet, under «Systempreferanser».',
+	),
+	array(
+		0 => 'Hvordan bokmerker jeg eller abonnerer på bestemte emner?',
+		1 => 'Du kan bokmerke eller abonnere på bestemte emner ved å klikke på den aktuelle lenken på menyen «Emneverktøy», praktisk plassert både øverst og nederst i en diskusjonstråd.<br />Hvis du svarer på et emne og haker av for «Varsle meg når innlegget besvares», vil du også abonnere på emnet.',
+	),
+	array(
+		0 => 'Hvordan abonnerer jeg på bestemte fora?',
+		1 => 'Hvis du vil abonnere på et bestemt forum, klikker du på lenken «Abonner på forum» nederst på siden når du har gått inn i forumet.',
+	),
+	array(
+		0 => 'Hvordan fjerner jeg abonnementene mine?',
+		1 => 'Hvis du vil fjerne abonnementer, går du til brukerkontrollpanelet og følger lenkene til abonnementene.'
 	),
 	array(
 		0 => '--',
 		1 => 'Vedlegg'
 	),
 	array(
-		0 => 'Hva slags vedlegg er tillatt på dette forumet?',
-		1 => 'Forumets administratorer kan tillate eller forbyr visse filtyper. Hvis du er usikker på hva som er lov å laste opp, ta kontakt med administratoren for å få hjelp.'
+		0 => 'Hvilke vedlegg tillates på dette systemet?',
+		1 => 'Alle systemadministratorer kan tillate eller forby visse vedleggstyper. Hvis du er usikker på hva du kan laste opp, kan du kontakte systemadministratoren for å få hjelp.'
 	),
 	array(
 		0 => 'Hvordan finner jeg alle vedleggene mine?',
-		1 => 'For å finne du listen over alle vedlegg du har lastet opp, går du til brukerkontrollpanelet og følger linken til vedlegg delen.'
+		1 => 'Hvis du vil se en liste over vedlegg du har lastet opp, går du til brukerkontrollpanelet og følger lenkene til vedleggsdelen.'
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB3 spørsmål'
+		1 => 'phpBB-problemer',
 	),
 	array(
-		0 => 'Hvem skrev koden til dette forumet?',
-		1 => 'Denne programvaren (i sin umodifiserte form) er produsert, lansert og har copyright <a href="http://www.phpbb.com/"> phpBB Group </a>. Den er gjort tilgjenglig under GNU General Public Licence og kan fritt distribuert. Se linken for mer informasjon.'
+		0 => 'Hvem har laget dette forumsystemet?',
+		1 => 'Denne programvaren (i sin umodifiserte form) er produsert, lansert og opphavsrettslig beskyttet av <a href="https://www.phpbb.com/">phpBB Limited</a>. Den er gjort tilgjengelig under GNU General Public License, versjon 2 (GPL-2.0), og kan distribueres fritt. Se <a href="https://www.phpbb.com/about/">Om phpBB</a> for flere detaljer.',
 	),
 	array(
-		0 => 'Hvorfor er ikke X funksjonen tilgjenglig?',
-		1 => 'Denne programvaren er skrevet og lisensiert av phpBB Group. Ønsker du at en funksjon legges til, kan du besøke phpbb.com nettsiden og se hva phpBB Group har å si. Vennligst ikke send funksjonsetterspørseler til forumet hos phpbb.com, gruppen bruker SourceForge til å håndtere nye funksjoner. Vennligst les igjennom forumene for å se om vi allerede har ønsket funksjon under vurdering eller i utvikling og følg prosedyren angitt der.'
+		0 => 'Hvorfor er ikke funksjonen X tilgjengelig?',
+		1 => 'Denne programvaren er skrevet og lisensiert gjennom phpBB Limited. Hvis du mener at en funksjon bør legges til, kan du gå til <a href="https://www.phpbb.com/ideas/">phpBB idésenter</a>, hvor du kan stemme frem eksisterende ideer og foreslå nye funksjoner.'
 	),
 	array(
-		0 => 'Hvem kontakter jeg angående støtende og/eller rettslige saker relatert til dette forumet?',
-		1 => 'Hvemsomhelst av de administratorene som er listet på "Forumledelse"-siden bør være et hensiktsmessig kontaktpunkt for dine klager. Hvis dette ikke får noen respons så bør du kontakte eieren av domenet (gjør et <a href="http://www.google.com/search?q=whois"> whois-oppslag </a>) eller, hvis dette er på en gratis tjeneste (for eksempel Yahoo, free.fr, f2s.com, etc.), administrator eller misbruk avdeling av denne tjenesten. Vær oppmerksom på at phpBB Group har <strong>absolutt ingen jurisdiksjon</strong> og kan ikke på noen måte bli holdt ansvarlig over hvordan, hvor eller av hvem dette forumet blir brukt. Ikke kontakt phpBB Group i forbindelse med ulovlige aktiviteter, eller for å stoppe uansvarlige brukere eller ærekrenkende kommentarer, hvis disse <strong>ikke er direkte relatert</strong> med www.phpbb.com hjemmeside eller programvaren til phpBB. Hvis du sender en e-post til phpBB Group <strong>angående tredjeparts</strong> bruk av denne programvaren, kan du vente deg et avvisende svar eller intet svar overhodet.'
-	)
+		0 => '«Hvem kontakter jeg om misbruk og/eller juridiske vurderinger som har med dette systemet å gjøre?',
+		1 => 'Alle administratorene som er oppført på «Teamet»-siden skal være rette kontaktpunkt for henvendelser. Hvis du ikke får noen respons derfra, bør du kontakte domenets eier (prøv et <a href="http://www.google.com/search?q=whois">whois-oppslag</a>) eller, dersom dette kjører på en gratistjeneste (f.eks. Yahoo!, free.fr, f2s.com, osv.), administrasjons- eller misbruksavdelingen for den tjenesten. Merk at phpBB Limited <strong>overhodet ikke har noen jurisdiksjon</strong>, og kan ikke på noen måte holdes ansvarlig for hvordan, hvor eller av hvem dette systemet brukes. Ikke kontakt phpBB Limited om juridiske spørsmål (oppsettende avgjørelser, ansvarsforhold, injurier osv.) som <strong>ikke er direkte relatert</strong> til nettstedet phpBB.com eller selve den faktiske phpBB-programvaren. Hvis du kontakter phpBB Limited <strong>om tredjepartsbruk</strong> av denne programvaren, kan du forvente enten et avvisende svar eller fravær av svar.'
+	),
+	array(
+		0 => 'Hvordan kontakter jeg en systemadministrator?',
+		1 => 'Alle brukere av systemet kan bruke «Kontakt oss»-skjemaet, dersom systemadministratoren har aktivert det alternativet.<br />Forumbrukere kan også bruke «Teamet»-lenken.',
+	),
 );
-
-?>

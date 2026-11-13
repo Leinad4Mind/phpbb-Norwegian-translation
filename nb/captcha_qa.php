@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* captcha_qa [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokmål) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2009 phpBB Group, 2011 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,30 +39,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Spørsmål og svar-CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Dette spørsmålet er en metode for identifisering og hindring av automatiserte innsendinger.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Du har oppgitt et ugyldig svar på spørsmålet.',
+	'CAPTCHA_QA'				=> 'Q&amp;A',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Dette spørsmålet har til hensikt å hindre automatisert skjemainnsending fra spammere.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Du har svart feil på spørsmålet.',
 
 	'QUESTION_ANSWERS'			=> 'Svar',
-	'ANSWERS_EXPLAIN'			=> 'Vennligst oppgi gyldige svar på spørsmålet, ett per linje.',
+	'ANSWERS_EXPLAIN'			=> 'Skriv inn gyldige svar på spørsmålet, ett per linje.',
 	'CONFIRM_QUESTION'			=> 'Spørsmål',
 
 	'ANSWER'					=> 'Svar',
-	'EDIT_QUESTION'				=> 'Endre spørsmål',
+	'EDIT_QUESTION'				=> 'Rediger spørsmål',
 	'QUESTIONS'					=> 'Spørsmål',
-	'QUESTIONS_EXPLAIN'			=> 'I alle de tilfeller hvor Spørsmål og svar-CAPTCHA benyttes, stilles brukeren et av spørsmålene nedenfor. For at kunne benytte modulen må minst et spørsmål formuleres på forumets standardspråk. Spørsmålene bør være enkle å besvare for forumets besøkende men samtidig så avanserte at en bot som kan søke på Google™ ikke finner svaret umiddelbart. Regelmessig endring av spørsmålet vil effektivisere bekjempelsen av spam brukere. Forutsetter svaret riktig tegnsett, stavemåte eller bruk av store og små bokstaver, bør strenge innstillinger benyttes.',
+	'QUESTIONS_EXPLAIN'			=> 'For alle skjemainnsendinger du har aktivert Q&amp;A-plugin-modulen for, vil brukere bli stilt ett av spørsmålene som er angitt her. Hvis du vil bruke denne plugin-modulen, må minst ett spørsmål være angitt på standardspråket. Disse spørsmålene skal være enkle for målgruppen din å besvare, men vanskelig for en bot som kan søke på Google™. Det beste resultatet får man ved å bruke store og hyppig utskiftede spørsmålssett. Aktiver den strenge innstillingen hvis spørsmålene krever korrekte store/små bokstaver, tegnsetting og skilletegn.',
 	'QUESTION_DELETED'			=> 'Spørsmål slettet',
 	'QUESTION_LANG'				=> 'Språk',
-	'QUESTION_LANG_EXPLAIN'		=> 'Språket dette spørsmålet og svarene er skrevet i.',
-	'QUESTION_STRICT'			=> 'Streng sjekk',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Aktiver for å skille på små og store bokstaver samt mellomrom.',
+	'QUESTION_LANG_EXPLAIN'		=> 'Språket dette spørsmålet og de tilhørende svarene er skrevet på.',
+	'QUESTION_STRICT'			=> 'Streng kontroll',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Aktiver for at store/små bokstaver, tegnsetting og skilletegn skal måtte være korrekt.',
 
 	'QUESTION_TEXT'				=> 'Spørsmål',
-	'QUESTION_TEXT_EXPLAIN'		=> 'Spørsmålet som vil bli stilt brukeren.',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Spørsmålet som vises for brukeren.',
 
-	'QA_ERROR_MSG'				=> 'Vennligst fyll ut alle feltene og minst ett svar.',
-	'QA_LAST_QUESTION'			=> 'Du kan ikke slette alle spørsmålene mens modulen er aktiv.',
+	'QA_ERROR_MSG'				=> 'Fyll ut alle felt og skriv inn minst ett svar.',
+	'QA_LAST_QUESTION'			=> 'Du kan ikke slette alle spørsmål mens plugin-modulen er aktiv.',
 
 ));
-
-?>

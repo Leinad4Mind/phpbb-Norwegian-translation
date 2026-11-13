@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* memberlist [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokmål) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2005 phpBB Group, 2011 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,113 +40,116 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> 'Profil',
-	'ACTIVE_IN_FORUM'		=> 'mest aktive forum',
+	'ACTIVE_IN_FORUM'		=> 'Mest aktive forum',
 	'ACTIVE_IN_TOPIC'		=> 'Mest aktive emne',
 	'ADD_FOE'				=> 'Legg til som uvenn',
-	'ADD_FRIEND'			=> 'legg til som venn',
+	'ADD_FRIEND'			=> 'Legg til som venn',
 	'AFTER'					=> 'Etter',
 
 	'ALL'					=> 'Alle',
 
 	'BEFORE'				=> 'Før',
 
-	'CC_EMAIL'				=> 'Send en kopi av denne e-posten til deg selv.',
-	'CONTACT_USER'			=> 'Kontakt',
+	'CC_SENDER'				=> 'Send en kopi av denne e-posten til deg selv.',
+	'CONTACT_ADMIN'			=> 'Kontakt en systemadministrator',
 
 	'DEST_LANG'				=> 'Språk',
-	'DEST_LANG_EXPLAIN'		=> 'Velg et passende språk (hvis tilgjengelig) for mottakeren av denne meldingen.',
+	'DEST_LANG_EXPLAIN'		=> 'Velg aktuelt språk (hvis tilgjengelig) for mottakeren av dennem meldingen.',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'Denne meldingen vil bli sendt som ren tekst, ikke inkludere noen HTML eller BBKode. Avsenderaddressen for denne meldingen vil bli satt til din e-postadresse.',
-	'EMAIL_DISABLED'		=> 'Beklager, men alle e-post relaterte funksjoner har blitt deaktivert.',
-	'EMAIL_SENT'			=> 'E-posten har blitt send.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Denne meldingen vil bli sendt som ren tekst, ikke inkludere noen HTML eller BBKode. Vær oppmerksom på at emnet allerede er inkludert i meldingen. Avsenderaddressen for denne meldingen vil bli satt til din e-postadresse.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'Du må oppgi en gyldig e-postadresse for mottakeren.',
-	'EMPTY_MESSAGE_EMAIL'	=> 'Du må skrive inn meldingen du vil sende som e-post.',
-	'EMPTY_MESSAGE_IM'		=> 'Du må skrive inn meldingen du vil sended.',
-	'EMPTY_NAME_EMAIL'		=> 'Du må angi det riktige navnet på mottakeren.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'Du må skrive inn et emne for e-posten.',
-	'EQUAL_TO'				=> 'Lik med',
+	'EDIT_PROFILE'			=> 'Rediger profil',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Bruk dette skjemaet for å søke etter spesifike medlemmer. Du trenger ikke å fylle ut alle feltene. For å matche delvis data bruk * som wildcard. Når du skriver inn datoer bruker formatet <kbd>ÅÅÅÅ-MM-DD</ kbd>, f.eks <samp>2004-02-29</ samp>. Bruk avkrysningsboksene for å velge ett eller flere brukernavn (flere brukernavn kan bli akseptert avhengig av selve skjemaet) og klikker på "Velg merkede" knappen for å returnere til forrige skjemaet.',
-	'FLOOD_EMAIL_LIMIT'		=> 'Du kan ikke sende en ny e-post akkurat nå. Vennligst prøv igjen senere.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Denne meldingen vil bli sendt som ren tekst, ikke bruk HTML eller BBCode. Svaradressen for denne meldingen vil bli angitt til e-postadressen din.',
+	'EMAIL_DISABLED'		=> 'Beklager, men alle e-postrelaterte funksjoner er deaktivert.',
+	'EMAIL_SENT'			=> 'E-posten er sendt.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Denne meldingen vil bli sendt som ren tekst, ikke bruk HTML eller BBCode. Merk at emneinformasjonen allerede er inkludert i meldingen. Svaradressen for denne meldingen vil bli angitt til e-postadressen din.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Du må angi en gyldig e-postadresse for mottakeren.',
+	'EMPTY_MESSAGE_EMAIL'	=> 'Du må angi en melding som skal sendes som e-post.',
+	'EMPTY_MESSAGE_IM'		=> 'Du må angi en melding som skal sendes.',
+	'EMPTY_NAME_EMAIL'		=> 'Du må angi det virkelige navnet til mottakeren.',
+	'EMPTY_SENDER_EMAIL'	=> 'Du må angi en gyldig e-postadresse.',
+	'EMPTY_SENDER_NAME'		=> 'Du må angi et navn.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Du må angi en emnelinje for e-posten.',
+	'EQUAL_TO'				=> 'Lik',
 
-	'GROUP_LEADER'			=> 'Gruppeleder',
+	'FIND_USERNAME_EXPLAIN'	=> 'Bruk dette skjemaet til å søke etter bestemte medlemmer. Du trenger ikke å fylle ut alle feltene. Du får treff på deler av ord ved hjelp av jokertegnet *. Når du angir datoer, bruker du formatet <kbd>YYYY-MM-DD</kbd>, f.eks. <samp>2004-02-29</samp>. Bruk avmerkingsboksene til å velge ett eller flere brukernavn (avhengig av selve skjemaet kan det hende at flere brukernavn godtas) og klikk Velg merkede for å gå tilbake til forrige skjema.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Du kan ikke sende flere e-poster nå. Prøv igjen senere.',
+
+	'GROUP_LEADER'			=> 'Grouppeleder',
 
 	'HIDE_MEMBER_SEARCH'	=> 'Skjul medlemssøk',
 
 	'IM_ADD_CONTACT'		=> 'Legg til kontakt',
-	'IM_AIM'				=> 'Vær oppmerksom på at du trenger AOL Instant Messenger installert for å bruke denne.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Last ned program',
-	'IM_ICQ'				=> 'Vær oppmerksom på at brukere kan ha valgt å ikke motta uønskede direktemeldinger.',
-	'IM_JABBER'				=> 'Vær oppmerksom på at brukere kan ha valgt å ikke motta uønskede direktemeldinger.',
-	'IM_JABBER_SUBJECT'		=> 'Dette er en automatisk generert melding, vennligst ikke svar. Melding fra bruker %1$s den %2$s.',
-	'IM_MESSAGE'			=> 'Din melding',
-	'IM_MSNM'				=> 'Vær oppmerksom på at du trenger Windows Messenger installert for å bruke denne.',
-	'IM_MSNM_BROWSER'		=> 'Din nettleser støtter ikke dette.',
-	'IM_MSNM_CONNECT'		=> 'MSNM er ikke tilkoblet. \\nDu må være tilkoblet MSNM for å fortsette.',
-	'IM_NAME'				=> 'Ditt navn',
-	'IM_NO_DATA'			=> 'Det er ingen tilgjengelig kontaktinformasjon for denne brukeren.',
-	'IM_NO_JABBER'			=> 'Beklager, direkte Jabber meldinger støttes ikke på dette forumet. Du trenger en Jabber-klient installert på systemet ditt for å kontakte ovennevnte mottaker.',
+	'IM_JABBER'				=> 'Merk at brukere kan ha valgt ikke å motta direktemeldinger de ikke har bedt om.',
+	'IM_JABBER_SUBJECT'		=> 'Dette er en automatisert melding – ikke svar! Melding fra bruker %1$s den %2$s.',
+	'IM_MESSAGE'			=> 'Melding',
+	'IM_NAME'				=> 'Navn',
+	'IM_NO_DATA'			=> 'Det finnes ingen passende kontaktinformasjon for denne brukeren.',
+	'IM_NO_JABBER'			=> 'Beklager, men direktemeldinger til Jabber-brukere støttes ikke på dette systemet. Du må ha en Jabber-klient installert på systemet for å kontakte mottakeren over.',
 	'IM_RECIPIENT'			=> 'Mottaker',
 	'IM_SEND'				=> 'Send melding',
 	'IM_SEND_MESSAGE'		=> 'Send melding',
-	'IM_SENT_JABBER'		=> 'Din melding til %1$s har blitt sendt.',
+	'IM_SENT_JABBER'		=> 'Meldingen til %1$s er sendt.',
 	'IM_USER'				=> 'Send en direktemelding',
 
 	'LAST_ACTIVE'				=> 'Sist aktiv',
-	'LESS_THAN'					=> 'Mindre enn',
-	'LIST_USER'					=> '1 bruker',
-	'LIST_USERS'				=> '%d brukere',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Dette forumet krever at du er registrert og innlogget for å se forumledelseslisten.',
-	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Dette forumet krever at du er registrert og innlogget for å se medlemslisten.',
-	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Dette forumet krever at du er registrert og innlogget for å søke etter brukere.',
-	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Dette forumet krever at du er registrert og innlogget for å se på brukerprofiler.',
+	'LESS_THAN'					=> 'Færre enn',
+	'LIST_USERS'				=> array(
+		1	=> '%d bruker',
+		2	=> '%d brukere',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Systemet krever at du er registrert og innlogget for å vise teamlisten.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Systemet krever at du er registrert og innlogget for å vise medlemslisten.',
+	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Systemet krever at du er registrert og innlogget for å søke i brukere.',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Systemet krever at du er registrert og innlogget for å vise profiler.',
 
-	'MORE_THAN'				=> 'Mer enn',
+	'MORE_THAN'				=> 'Flere enn',
 
-	'NO_EMAIL'				=> 'Du har ikke rettigheter til å sende e-post til denne brukeren.',
-	'NO_VIEW_USERS'			=> 'Du har ikke rettigheter til å se medlemslisten eller profilene.',
+	'NO_CONTACT_FORM'		=> 'Skjemaet for å kontakte systemadministrator er deaktivert.',
+	'NO_CONTACT_PAGE'		=> 'Siden for å kontakte systemadministrator er deaktivert.',
+	'NO_EMAIL'				=> 'Du har ikke tillatelse til å sende e-post til denne brukeren.',
+	'NO_VIEW_USERS'			=> 'Du har ikke tillatelse til å vise medlemslisten eller profiler.',
 
-	'ORDER'					=> 'Sorter',
+	'ORDER'					=> 'Rekkefølge',
 	'OTHER'					=> 'Annet',
 
-	'POST_IP'				=> 'Skrevet fra IP/domene',
+	'POST_IP'				=> 'Lagt inn fra IP/domene',
 
-	'RANK'					=> 'Rang',
-	'REAL_NAME'				=> 'Mottakers navn',
+	'REAL_NAME'				=> 'Mottakernavn',
 	'RECIPIENT'				=> 'Mottaker',
-	'REMOVE_FOE'			=> 'Fjern uvenn',
-	'REMOVE_FRIEND'			=> 'Fjern venn',
+	'REMOVE_FOE'			=> 'Fjern som uvenn',
+	'REMOVE_FRIEND'			=> 'Fjern som venn',
 
 	'SELECT_MARKED'			=> 'Velg merkede',
 	'SELECT_SORT_METHOD'	=> 'Velg sorteringsmetode',
-	'SEND_AIM_MESSAGE'		=> 'Send AIM-melding',
+	'SENDER_EMAIL_ADDRESS'	=> 'E-postadresse',
+	'SENDER_NAME'			=> 'Navn',
 	'SEND_ICQ_MESSAGE'		=> 'Send ICQ-melding',
 	'SEND_IM'				=> 'Direktemeldinger',
 	'SEND_JABBER_MESSAGE'	=> 'Send Jabber-melding',
 	'SEND_MESSAGE'			=> 'Melding',
-	'SEND_MSNM_MESSAGE'		=> 'Send MSNM/WLM melding',
-	'SEND_YIM_MESSAGE'		=> 'Send YIM melding',
+	'SEND_YIM_MESSAGE'		=> 'Send YIM-melding',
 	'SORT_EMAIL'			=> 'E-post',
 	'SORT_LAST_ACTIVE'		=> 'Sist aktiv',
-	'SORT_POST_COUNT'		=> 'Antall innleggt',
+	'SORT_POST_COUNT'		=> 'Antall innlegg',
 
-	'USERNAME_BEGINS_WITH'	=> 'Brukernavn som begynner med',
+	'USERNAME_BEGINS_WITH'	=> 'Brukernavnet begynner på',
 	'USER_ADMIN'			=> 'Administrer bruker',
-	'USER_BAN'				=> 'Utelukk',
+	'USER_BAN'				=> 'Utestengelse',
 	'USER_FORUM'			=> 'Brukerstatistikk',
 	'USER_LAST_REMINDED'	=> array(
-		0		=> 'Ingen påminnelse sendt nå',
-		1		=> '%1$d påminnelse sendt<br />» %2$s',
+		0		=> 'Ingen påminnelser er sendt ennå',
+		1		=> '%1$d påminnelse er sendt<br />» %2$s',
+		2		=> '%1$d påminnelser er sendt<br />» %2$s',
 	),
-	'USER_ONLINE'			=> 'Pålogget',
-	'USER_PRESENCE'			=> 'Tilstedeværelse på forumet',
+	'USER_ONLINE'			=> 'Online',
+	'USER_PRESENCE'			=> 'Tilstedeværelse på systemet',
+	'USERS_PER_PAGE'		=> 'Brukere per side',
 
-	'VIEWING_PROFILE'		=> 'Ser på brukerprofilen til - %s',
-	'VISITED'				=> 'Sist besøkt',
-
-	'WWW'					=> 'Hjemmeside',
+	'VIEWING_PROFILE'		=> 'Viser profil – %s',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Vis Facebook-profil',
+	'VIEW_SKYPE_PROFILE'	=> 'Vis Skype-profil',
+	'VIEW_TWITTER_PROFILE'	=> 'Vis Twitter-profil',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Vis YouTube-kanal',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Vis Google+-profil',
 ));
-
-?>

@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* captcha_recaptcha [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokm√•l) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2009 phpBB Group, 2011 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,16 +40,15 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'nb',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'For Â kunne bruke reCaptcha, mÂ du opprette en konto pÂ <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Du m√• opprette en konto p√• <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> for √• kunne bruke reCaptcha.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'Den visuelle bekreftelseskoden du presenterte var feil',
+	'RECAPTCHA_INCORRECT'			=> 'Den visuelle bekreftelseskoden du angav, var feil',
 
-	'RECAPTCHA_PUBLIC'				=> 'Offentlig reCaptcha kode',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Din offentlige reCaptcha kode. Koden fÂs pÂ <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Privat reCaptcha kode',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Din private reCaptcha kode. Koden fÂs pÂ <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Offenlig reCaptcha-n√∏kkel',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Din offentlige reCaptcha-n√∏kkel. N√∏kler kan du f√• tak i p√• <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Privat reCaptcha-n√∏kkel',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Din private reCaptcha-n√∏kkel. N√∏kler kan du f√• tak i p√• <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'I et fors¯k pÂ Â hindre automatisk innleveringer, krever vi at du skriver inn begge ordene som vises i tekstfeltet under.',
+	'RECAPTCHA_EXPLAIN'				=> 'For √• hindre automatisert innsending, krever vi at du skriver inn begge ordene som vises i tekstfeltet nedenfor.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Feil ved tilkobling til RECAPTCHA-tjenesten: Kan ikke √•pne socket. Pr√∏v igjen senere.',
 ));
-
-?>

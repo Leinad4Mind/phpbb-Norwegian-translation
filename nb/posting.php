@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* posting [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokmål) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2005 phpBB Group, 2012 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,68 +40,89 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ADD_ATTACHMENT'			=> 'Last opp vedlegg',
-	'ADD_ATTACHMENT_EXPLAIN'	=> 'Dersom du ønsker å laste opp en eller flere filer, fyll inn detaljene under.',
+	'ADD_ATTACHMENT_EXPLAIN'	=> 'Hvis du vil legge ved en eller flere filer, angir du detaljene nedenfor.',
 	'ADD_FILE'					=> 'Legg til filen',
-	'ADD_POLL'					=> 'Lag en avstemning',
-	'ADD_POLL_EXPLAIN'			=> 'Hvis du ikke ønsker å legge til en avstemning på emnet ditt, la feltene stå tomme.',
+	'ADD_POLL'					=> 'Opprettelse av avstemming',
+	'ADD_POLL_EXPLAIN'			=> 'Hvis du ikke vil legge til en avstemming i emnet, lar du feltene stå tomme.',
 	'ALREADY_DELETED'			=> 'Beklager, men denne meldingen er allerede slettet.',
-	'ATTACH_QUOTA_REACHED'		=> 'Beklager, forumets vedleggs kvote er nådd.',
-	'ATTACH_SIG'				=> 'Legg ved signatur. (Signaturen kan endres i brukerkontrollpanelet.)',
+	'ATTACH_DISK_FULL'			=> 'Det er ikke nok ledig diskplass til å legge inn dette vedlegget.',
+	'ATTACH_QUOTA_REACHED'		=> 'Beklager, men kvoten for vedlegg på systemet er nådd.',
+	'ATTACH_SIG'				=> 'Legg ved en signatur (signaturer kan endres i UCP)',
 
-	'BBCODE_A_HELP'				=> 'Se vedlegg inline: [attachment=]filenavn.ext[/attachment]',
-	'BBCODE_B_HELP'				=> 'Uthevet tekst: [b]tekst[/b]',
-	'BBCODE_C_HELP'				=> 'Vis kode: [code]kode[/code]',
-	'BBCODE_E_HELP'				=> 'Liste: Legg til punkt',
+	'BBCODE_A_HELP'				=> 'Direkte opplastet vedlegg: [attachment=]filnavn.typ[/attachment]',
+	'BBCODE_B_HELP'				=> 'Fet tekst: [b]tekst[/b]',
+	'BBCODE_C_HELP'				=> 'Kodevisning: [code]kode[/code]',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Skriftstørrelse: [size=85]liten tekst[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s er <em>AV</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s er <em>PÅ</em>',
 	'BBCODE_I_HELP'				=> 'Kursiv tekst: [i]tekst[/i]',
-	'BBCODE_L_HELP'				=> 'Liste: [list]tekst[/list]',
-	'BBCODE_LISTITEM_HELP'		=> 'Listepunkt: [*]tekst[/*]',
-	'BBCODE_O_HELP'				=> 'Sortert liste: [list=]tekst[/list]',
-	'BBCODE_P_HELP'				=> 'Sett inn bilde: [img]http://bilde_url[/img]',
+	'BBCODE_L_HELP'				=> 'Liste: [list][*]tekst[/list]',
+	'BBCODE_LISTITEM_HELP'		=> 'Listeelement: [*]tekst',
+	'BBCODE_O_HELP'				=> 'Nummerert liste: F.eks. [list=1][*]Første punkt[/list] eller [list=a][*]Punkt A[/list]',
+	'BBCODE_P_HELP'				=> 'Sett inn bilde: [img]http://bilde-url[/img]',
 	'BBCODE_Q_HELP'				=> 'Siter tekst: [quote]tekst[/quote]',
-	'BBCODE_S_HELP'				=> 'Skriftfarge: [color=red]tekst[/color]  Tips: Du kan også bruke color=#FF0000',
+	'BBCODE_S_HELP'				=> 'Skriftfarge: [color=red]tekst[/color] eller [color=#FF0000]tekst[/color]',
 	'BBCODE_U_HELP'				=> 'Understreket tekst: [u]tekst[/u]',
-	'BBCODE_W_HELP'				=> 'Sett inn URL: [url]http://url[/url] eller [url=http://url]URL tekst[/url]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=bredde,høyde]http://url[/flash]',
-	'BUMP_ERROR'				=> 'Du kan ikke "bumpe" dette emnet så raskt etter det forrige innlegget.',
+	'BBCODE_W_HELP'				=> 'Sett inn URL: [url]http://url[/url] eller [url=http://url]URL-tekst[/url]',
+	'BBCODE_Y_HELP'				=> 'Liste: Legg til listeelement',
+	'BUMP_ERROR'				=> 'Du kan ikke fremheve dette emnet så snart etter forrige innlegg.',
 
-	'CANNOT_DELETE_REPLIED'		=> 'Beklager, men du kan bare slette innlegg som ikke er besvart.',
-	'CANNOT_EDIT_POST_LOCKED'	=> 'Dette innlegget har blitt låst. Du kan ikke lenger redigere dette innlegget.',
-	'CANNOT_EDIT_TIME'			=> 'Du kan ikke lenger redigere eller slette dette innlegget.',
-	'CANNOT_POST_ANNOUNCE'		=> 'Beklager, men du kan ikke lage annonseringer.',
-	'CANNOT_POST_STICKY'		=> 'Beklager, men du kan ikke skrive et prioritert tema.',
-	'CHANGE_TOPIC_TO'			=> 'Endre emne type til',
+	'CANNOT_DELETE_REPLIED'		=> 'Beklager, men du kan bare slette innlegg som ikke har blitt besvart.',
+	'CANNOT_EDIT_POST_LOCKED'	=> 'Dette innlegget er låst. Du kan ikke lenger redigere det innlegget.',
+	'CANNOT_EDIT_TIME'			=> 'Du kan ikke lenger redigere eller slette det innlegget.',
+	'CANNOT_POST_ANNOUNCE'		=> 'Beklager, men du kan ikke legge inn kunngjøringer.',
+	'CANNOT_POST_STICKY'		=> 'Beklager, men du kan ikke legge inn festede emner.',
+	'CHANGE_TOPIC_TO'			=> 'Endre emnetype til',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Meldingen inneholder %1$d tegn.',
+		2	=> 'Meldingen inneholder %1$d tegn.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Signaturen inneholder %1$d tegn.',
+		2	=> 'Signaturen inneholder %1$d tegn.',
+	),
 	'CLOSE_TAGS'				=> 'Lukk tagger',
 	'CURRENT_TOPIC'				=> 'Gjeldende emne',
 
-	'DELETE_FILE'				=> 'Slett fil',
-	'DELETE_MESSAGE'			=> 'Slett melding',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Er du sikker på at du vil slette denne meldingen?',
-	'DELETE_OWN_POSTS'			=> 'Beklager, men du kan bare slette dine egne innlegg.',
-	'DELETE_POST_CONFIRM'		=> 'Er du sikker på at du vil slette dette innlegget?',
-	'DELETE_POST_WARN'			=> 'Når innlegget er slettet kan det ikke gjenopprettes',
-	'DISABLE_BBCODE'			=> 'Slå av BBKode',
-	'DISABLE_MAGIC_URL'			=> 'Ikke link URLer automatisk',
-	'DISABLE_SMILIES'			=> 'Deaktiver Smil',
-	'DISALLOWED_CONTENT'		=> 'Opplastingen ble avvist fordi den opplastede filen ble identifisert som et mulig angrepsforsøk.',
-	'DISALLOWED_EXTENSION'		=> 'Filtypen %s er ikke tillatt.',
-	'DRAFT_LOADED'				=> 'Kladden er satt inn i skriveområdet, du kan fullføre innlegget nå.<br/>Kladden vil bli slettet etter at du har postet dette innlegget.',
-	'DRAFT_LOADED_PM'			=> 'Kladden er satt inn i skriveområdet, du kan fullføre din private melding nå.<br/>Kladden vil bli slettet etter at du har postet dette innlegget.',
-	'DRAFT_SAVED'				=> 'Kladden er lagret.',
-	'DRAFT_TITLE'				=> 'Kladdtittel',
+	'DELETE_FILE'				=> 'Delete file',
+	'DELETE_MESSAGE'			=> 'Delete message',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Are you sure you want to delete this message?',
+	'DELETE_OWN_POSTS'			=> 'Sorry but you can only delete your own posts.',
+	'DELETE_PERMANENTLY'		=> 'Delete permanently',
+	'DELETE_POST_CONFIRM'		=> 'Are you sure you want to delete this post?',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this post?',
+	'DELETE_POST_PERMANENTLY'	=> 'Permanently delete this post so it can not be recovered',
+	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these posts?',
+	'DELETE_REASON'				=> 'Reason for deletion',
+	'DELETE_REASON_EXPLAIN'		=> 'The specified reason for deletion will be visible to moderators.',
+	'DELETE_POST_WARN'			=> 'Delete this post',
+	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Permanently delete this topic so it can not be recovered',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this topic?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these topics?',
+	'DISABLE_BBCODE'			=> 'Disable BBCode',
+	'DISABLE_MAGIC_URL'			=> 'Do not automatically parse URLs',
+	'DISABLE_SMILIES'			=> 'Disable smilies',
+	'DISALLOWED_CONTENT'		=> 'The upload was rejected because the uploaded file was identified as a possible attack vector.',
+	'DISALLOWED_EXTENSION'		=> 'The extension %s is not allowed.',
+	'DRAFT_LOADED'				=> 'Draft loaded into posting area, you may want to finish your post now.<br />Your draft will be deleted after submitting this post.',
+	'DRAFT_LOADED_PM'			=> 'Draft loaded into message area, you may want to finish your private message now.<br />Your draft will be deleted after submitting this private message.',
+	'DRAFT_SAVED'				=> 'Draft successfully saved.',
+	'DRAFT_TITLE'				=> 'Draft title',
 
-	'EDIT_REASON'				=> 'Begrunnelse for endring av dette innlegget',
-	'EMPTY_FILEUPLOAD'			=> 'Den opplastede filen er tom.',
-	'EMPTY_MESSAGE'				=> 'Du må skrive en melding for å poste et innlegg.',
-	'EMPTY_REMOTE_DATA'			=> 'Filen kunne ikke lastes opp, kan du prøve å laste opp filen manuelt.',
+	'EDIT_REASON'				=> 'Reason for editing this post',
+	'EMPTY_FILEUPLOAD'			=> 'The uploaded file is empty.',
+	'EMPTY_MESSAGE'				=> 'You must enter a message when posting.',
+	'EMPTY_REMOTE_DATA'			=> 'File could not be uploaded, please try uploading the file manually.',
 
 	'FLASH_IS_OFF'				=> '[flash] is <em>OFF</em>',
 	'FLASH_IS_ON'				=> '[flash] is <em>ON</em>',
 	'FLOOD_ERROR'				=> 'You cannot make another post so soon after your last.',
-	'FONT_COLOR'				=> 'Font colour',
-	'FONT_COLOR_HIDE'			=> 'Hide font colour',
+	'FONT_COLOR'				=> 'Font color',
+	'FONT_COLOR_HIDE'			=> 'Hide font color',
 	'FONT_HUGE'					=> 'Huge',
 	'FONT_LARGE'				=> 'Large',
 	'FONT_NORMAL'				=> 'Normal',
@@ -122,13 +145,29 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'You need to login in order to quote posts within this forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'You need to login in order to reply to topics within this forum.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %1$d.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Your flash files may only be up to %1$d pixels high.',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Your flash files may only be up to %1$d pixels wide.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Your images may only be up to %1$d pixels high.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Your images may only be up to %1$d pixels wide.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %d.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Your flash files may only be up to %d pixel high.',
+		2	=> 'Your flash files may only be up to %d pixels high.',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Your flash files may only be up to %d pixel wide.',
+		2	=> 'Your flash files may only be up to %d pixels wide.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Your images may only be up to %1$d pixel high.',
+		2	=> 'Your images may only be up to %1$d pixels high.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Your images may only be up to %d pixel wide.',
+		2	=> 'Your images may only be up to %d pixels wide.',
+	),
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Enter your message here, it may contain no more than <strong>%d</strong> characters.',
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Enter your message here, it may contain no more than <strong>%d</strong> character.',
+		2	=> 'Enter your message here, it may contain no more than <strong>%d</strong> characters.',
+	),
 	'MESSAGE_DELETED'			=> 'This message has been deleted successfully.',
 	'MORE_SMILIES'				=> 'View more smilies',
 
@@ -146,12 +185,18 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Place inline',
 	'POLL_DELETE'				=> 'Delete poll',
 	'POLL_FOR'					=> 'Run poll for',
-	'POLL_FOR_EXPLAIN'			=> 'Enter 0 or leave blank for a never ending poll.',
+	'POLL_FOR_EXPLAIN'			=> 'Enter 0 for a never ending poll.',
 	'POLL_MAX_OPTIONS'			=> 'Options per user',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'This is the number of options each user may select when voting.',
 	'POLL_OPTIONS'				=> 'Poll options',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options.',
-	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> 'Place each option on a new line. You may enter <strong>%d</strong> option.',
+		2	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options.',
+	),
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> 'Place each option on a new line. You may enter <strong>%d</strong> option. If you remove or add options all previous votes will be reset.',
+		2	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
+	),
 	'POLL_QUESTION'				=> 'Poll question',
 	'POLL_TITLE_TOO_LONG'		=> 'The poll title must contain fewer than 100 characters.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> 'The parsed size of your poll title is too large, consider removing BBCodes or smilies.',
@@ -161,9 +206,9 @@ $lang = array_merge($lang, array(
 	'POST_APPROVAL_NOTIFY'		=> 'You will be notified when your post has been approved.',
 	'POST_CONFIRMATION'			=> 'Confirmation of post',
 	'POST_CONFIRM_EXPLAIN'		=> 'To prevent automated posts the board requires you to enter a confirmation code. The code is displayed in the image you should see below. If you are visually impaired or cannot otherwise read this code please contact the %sBoard Administrator%s.',
-	'POST_DELETED'				=> 'This message has been deleted successfully.',
-	'POST_EDITED'				=> 'This message has been edited successfully.',
-	'POST_EDITED_MOD'			=> 'This message has been edited successfully, but it will need to be approved by a moderator before it is publicly viewable.',
+	'POST_DELETED'				=> 'This post has been deleted successfully.',
+	'POST_EDITED'				=> 'This post has been edited successfully.',
+	'POST_EDITED_MOD'			=> 'This post has been edited successfully, but it will need to be approved by a moderator before it is publicly viewable.',
 	'POST_GLOBAL'				=> 'Global',
 	'POST_ICON'					=> 'Post icon',
 	'POST_NORMAL'				=> 'Normal',
@@ -176,8 +221,13 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'				=> 'Post topic as',
 	'PROGRESS_BAR'				=> 'Progress bar',
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'You may embed only %1$d quotes within each other.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> 'You may embed only %d quote within each other.',
+		2	=> 'You may embed only %d quotes within each other.',
+	),
+	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'The specified file could not be uploaded because the request timed out.',
 	'SAVE'						=> 'Save',
 	'SAVE_DATE'					=> 'Saved at',
 	'SAVE_DRAFT'				=> 'Save draft',
@@ -187,16 +237,20 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Smilies are <em>ON</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Sticky/Announcement time limit',
 	'STICK_TOPIC_FOR'			=> 'Stick topic for',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Enter 0 or leave blank for a never ending Sticky/Announcement. Please note that this number is relative to the date of the post.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Enter 0 for a never ending Sticky/Announcement. Please note that this number is relative to the date of the post.',
 	'STYLES_TIP'				=> 'Tip: Styles can be applied quickly to selected text.',
 
 	'TOO_FEW_CHARS'				=> 'Your message contains too few characters.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'Your message contains %1$d characters. The minimum number of characters you need to enter is %2$d.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'You need to enter at least %1$d character.',
+		2	=> 'You need to enter at least %1$d characters.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'You must enter at least two poll options.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Cannot add another attachment, %d is the maximum.',
 	'TOO_MANY_CHARS'			=> 'Your message contains too many characters.',
-	'TOO_MANY_CHARS_POST'		=> 'Your message contains %1$d characters. The maximum number of allowed characters is %2$d.',
-	'TOO_MANY_CHARS_SIG'		=> 'Your signature contains %1$d characters. The maximum number of allowed characters is %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'The maximum number of allowed characters is %1$d.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'You have tried to enter too many poll options.',
 	'TOO_MANY_SMILIES'			=> 'Your message contains too many smilies. The maximum number of smilies allowed is %d.',
 	'TOO_MANY_URLS'				=> 'Your message contains too many URLs. The maximum number of URLs allowed is %d.',
@@ -205,6 +259,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'You cannot use certain BBCodes: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'To switch this topic back from being global to a normal topic, you need to select the forum you wish this topic to be displayed.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Your message contains the following unsupported characters:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Your subject contains the following unsupported characters:<br />%s',
 	'UPDATE_COMMENT'			=> 'Update comment',
 	'URL_INVALID'				=> 'The URL you specified is invalid.',
 	'URL_NOT_FOUND'				=> 'The file specified could not be found.',
@@ -219,8 +275,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sView your submitted message%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sView your submitted private message%s',
 
-	'WRONG_FILESIZE'			=> 'The file is too big, maximum allowed size is %1d %2s.',
-	'WRONG_SIZE'				=> 'The image must be at least %1$d pixels wide, %2$d pixels high and at most %3$d pixels wide and %4$d pixels high. The submitted image is %5$d pixels wide and %6$d pixels high.',
+	'WRONG_FILESIZE'			=> 'The file is too big, maximum allowed size is %1$d %2$s.',
+	'WRONG_SIZE'				=> 'The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
 ));
-
-?>

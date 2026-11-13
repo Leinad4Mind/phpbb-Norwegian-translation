@@ -1,13 +1,15 @@
 <?php
 /**
 *
-* groups [Norwegian Bokmaal]
+* This file is part of the Norwegian (bokmål) Language Pack
+* for the phpBB Forum Software.
 *
-* @package language
-* @version $Id$
-* @author Morten R. N. http://www.morten.com
-* @copyright (c) 2005 phpBB Group, 2011 Norwegian translation team, Morten R. N.
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Lars Christian Schreiner
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,61 +39,59 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'		=> 'Den valgte gruppen er allerede din standardgruppe.',
+	'ALREADY_DEFAULT_GROUP'		=> 'Den valgte gruppen er allerede standardgruppen din.',
 	'ALREADY_IN_GROUP'			=> 'Du er allerede medlem av den valgte gruppen.',
-	'ALREADY_IN_GROUP_PENDING'	=> 'Du har allerede søkt om medlemskap i den valgte gruppen.',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Du har allerede bedt om å bli med i den valgte gruppen.',
 
-	'CANNOT_JOIN_GROUP'			=> 'Du kan ikke bli medlem av denne gruppen. Du kan bare bli medlem av åpne og frie åpne grupper.',
-	'CANNOT_RESIGN_GROUP'		=> 'Du kan ikke melde deg ut av denne gruppen. Du kan bare melde deg ut av åpne og frie åpne grupper.',
-	'CHANGED_DEFAULT_GROUP'		=> 'Endring av standardgruppe var vellykket.',
+	'CANNOT_JOIN_GROUP'			=> 'Du kan ikke bli med i denne gruppen. Du kan bare bli med i åpne og fritt åpne grupper.',
+	'CANNOT_RESIGN_GROUP'		=> 'Du kan ikke forlate denne gruppen. Du kan bare forlate åpne og fritt åpne grupper.',
+	'CHANGED_DEFAULT_GROUP'		=> 'Standardgruppe endret.',
 
 	'GROUP_AVATAR'						=> 'Gruppeavatar',
-	'GROUP_CHANGE_DEFAULT'				=> 'Er du sikker på at du vil bytte standardgruppe til “%s”?',
-	'GROUP_CLOSED'						=> 'Stengt',
+	'GROUP_CHANGE_DEFAULT'				=> 'Er du sikker på at du vil endre standardmedlemskap til gruppen «%s»?',
+	'GROUP_CLOSED'						=> 'Lukket',
 	'GROUP_DESC'						=> 'Gruppebeskrivelse',
 	'GROUP_HIDDEN'						=> 'Skjult',
-	'GROUP_INFORMATION'					=> 'Gruppeinformasjon',
-	'GROUP_IS_CLOSED'					=> 'Dette er en privat/lukket gruppe, man kan bare bli medlem etter en invitasjon fra en gruppeleder.',
-	'GROUP_IS_FREE'						=> 'Dette er en åpen gruppe, alle nye medlemmer er velkommen.',
-	'GROUP_IS_HIDDEN'					=> 'Dette er en skjult gruppe, kun medlemmer kan se egenskaper og hvem som er medlem.',
-	'GROUP_IS_OPEN'						=> 'Dette er en åpen gruppe, men du må søke om å bli medlem.',
-	'GROUP_IS_SPECIAL'					=> 'Dette er en spesialgruppe, som er administrert av forumadministratorene.',
-	'GROUP_JOIN'						=> 'Bli medlem av gruppen',
-	'GROUP_JOIN_CONFIRM'				=> 'Er du sikker på at du vil melde deg inn i denne gruppen?',
-	'GROUP_JOIN_PENDING'				=> 'Søk om å bli med i gruppen',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Er du sikker på at du vil søke om medlemskap i den valgte gruppen?',
-	'GROUP_JOINED'						=> 'Du er nå medlem av den valgte gruppen.',
-	'GROUP_JOINED_PENDING'				=> 'Søknad om medlemskap i gruppen er levert, den må nå godkjennes av en gruppeleder.',
+	'GROUP_INFORMATION'					=> 'Brukergruppeinformasjon',
+	'GROUP_IS_CLOSED'					=> 'Dette er en lukket gruppe, nye medlemmer kan bare bli med etter invitasjon fra en gruppeleder.',
+	'GROUP_IS_FREE'						=> 'Dette er en fritt åpen gruppe, alle nye medlemmer er velkomne.',
+	'GROUP_IS_HIDDEN'					=> 'Dette er en skjult gruppe, bare medlemmer av denne gruppen kan se hvem som er medlem.',
+	'GROUP_IS_OPEN'						=> 'Dette er en åpen gruppe, brukere kan be om å få bli med.',
+	'GROUP_IS_SPECIAL'					=> 'Dette er en spesialgruppe, som administreres av systemadministratorene.',
+	'GROUP_JOIN'						=> 'Bli med i gruppe',
+	'GROUP_JOIN_CONFIRM'				=> 'Er du sikker på at du vil bli med i den valgte gruppen?',
+	'GROUP_JOIN_PENDING'				=> 'Be om å bli med i gruppen',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Er du sikker på at du vil be om å bli med i den valgte gruppen?',
+	'GROUP_JOINED'						=> 'Du er nå med i den valgte gruppen.',
+	'GROUP_JOINED_PENDING'				=> 'Du har nå bedt om å få bli med i gruppen. Vent til en gruppeleder godkjenner deg som gruppemedlem.',
 	'GROUP_LIST'						=> 'Administrer brukere',
 	'GROUP_MEMBERS'						=> 'Gruppemedlemmer',
 	'GROUP_NAME'						=> 'Gruppenavn',
 	'GROUP_OPEN'						=> 'Åpen',
-	'GROUP_RANK'						=> 'Grupperang',
-	'GROUP_RESIGN_MEMBERSHIP'			=> 'Avslutte gruppemedlemskap',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Er du sikker på at du vil avslutte medlemskapet i den valgte gruppen?',
-	'GROUP_RESIGN_PENDING'				=> 'Avbryt søknad om gruppemedlemskap',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Er du sikker på at du vil avbryte søknaden om medlemskap i den valgte gruppen?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Du er nå utmeldt fra den valgte gruppen.',
-	'GROUP_RESIGNED_PENDING'			=> 'Din søknad om medlemskap i den valgte gruppen er nå avbrutt.',
+	'GROUP_RANK'						=> 'Gruppegrad',
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Forlat gruppen',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Er du sikker på at du vil forlate den valgte gruppen?',
+	'GROUP_RESIGN_PENDING'				=> 'Annuller et ventende gruppemedlemskap',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Er du sikker på at du vil annullere det ventende medlemskapet i valgte gruppe?',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Du er fjernet fra den valgte gruppen.',
+	'GROUP_RESIGNED_PENDING'			=> 'Det ventende medlemskapet er fjernet fra den valgte gruppen.',
 	'GROUP_TYPE'						=> 'Gruppetype',
 	'GROUP_UNDISCLOSED'					=> 'Skjult gruppe',
-	'FORUM_UNDISCLOSED'					=> 'Modererer skjulte forum',
+	'FORUM_UNDISCLOSED'					=> 'Modererer skjulte fora',
 
-	'LOGIN_EXPLAIN_GROUP'	=> 'Du må logge inn for å se gruppedetaljer.',
+	'LOGIN_EXPLAIN_GROUP'	=> 'Du må logge inn for å vise gruppedetaljer.',
 
 	'NO_LEADERS'					=> 'Du er ikke leder i noen gruppe.',
-	'NOT_LEADER_OF_GROUP'			=> 'Handlingen kan ikke utføres fordi du ikke er leder i den valgte gruppen.',
-	'NOT_MEMBER_OF_GROUP'			=> 'Handlingen kan ikke utføres fordi du ikke er medlem i den valgte gruppen eller ditt medlemskap er enda ikke godkjent.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Du har ikke lov til å melde deg ut av hovedgruppen.',
-	
-	'PRIMARY_GROUP'		=> 'Hovedgruppe',
+	'NOT_LEADER_OF_GROUP'			=> 'Operasjonen kan ikke utføres fordi du ikke er gruppeleder i den valgte gruppen.',
+	'NOT_MEMBER_OF_GROUP'			=> 'Operasjonen kan ikke utføres fordi du ikke er medlem i den valgte gruppen, eller så er du ikke godkjent som medlem ennå.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Du kan ikke forlate standardgruppen din.',
+
+	'PRIMARY_GROUP'		=> 'Primærgruppe',
 
 	'REMOVE_SELECTED'		=> 'Fjern valgte',
 
-	'USER_GROUP_CHANGE'			=> 'Fra “%1$s” gruppe til “%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'Fjern lederskap',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Er du sikker på at du vil bli fjernet som gruppeleder fra den valgte gruppen?',
-	'USER_GROUP_DEMOTED'		=> 'Du er nå fjernet som leder fra den valgte gruppen.',
+	'USER_GROUP_CHANGE'			=> 'Fra gruppen «%1$s» til «%2$s»',
+	'USER_GROUP_DEMOTE'			=> 'Degrader lederskap',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Er du sikker på at du vil degraderes fra gruppeleder i valgte gruppe?',
+	'USER_GROUP_DEMOTED'		=> 'Du er nå degradert fra gruppeleder.',
 ));
-
-?>
