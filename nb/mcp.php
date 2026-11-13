@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'LOOKUP_ALL'				=> 'Slå opp alle IP-er',
 	'LOOKUP_IP'					=> 'Slå opp IP',
 
-	'MARKED_NOTES_DELETED'		=> 'Aller merkede brukernotater er fjernet.',
+	'MARKED_NOTES_DELETED'		=> 'Alle merkede brukernotater er fjernet.',
 
 	'MCP_ADD'						=> 'Legg til en advarsel',
 
@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'POST_NOT_EXIST'			=> 'Innlegget du forespurte, finnes ikke.',
 	'POST_REPORTED_SUCCESS'		=> 'Dette innlegget er nå rapportert.',
 	'POST_RESTORED_SUCCESS'		=> 'Dette innlegget er nå gjenopprettet.',
-	'POST_UNLOCKED_SUCCESS'		=> 'Inlegget er nå låst opp.',
+	'POST_UNLOCKED_SUCCESS'		=> 'Innlegget er nå låst opp.',
 
 	'READ_USERNOTES'			=> 'Brukernotater',
 	'READ_WARNINGS'				=> 'Brukeradvarsler',

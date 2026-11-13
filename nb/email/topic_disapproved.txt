@@ -1,10 +1,10 @@
-Subject: Emne avslått – «{TOPIC_TITLE}»
+Subject: Emne avslÃ¥tt â€“ Â«{TOPIC_TITLE}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi emnet ditt, «{TOPIC_TITLE}» på «{SITENAME}» ble avslått av en moderator eller administrator.
+Du mottar dette varselet fordi emnet ditt, Â«{TOPIC_TITLE}Â» pÃ¥ Â«{SITENAME}Â» ble avslÃ¥tt av en moderator eller administrator.
 
-Følgende begrunnelse ble gitt for avslaget:
+FÃ¸lgende begrunnelse ble gitt for avslaget:
 
 {REASON}
 

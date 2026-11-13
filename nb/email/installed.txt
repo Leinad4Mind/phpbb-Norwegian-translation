@@ -2,9 +2,9 @@ Subject: phpBB installert
 
 Gratulerer!
 
-Du har installert phpBB på serveren.
+Du har installert phpBB pÃ¥ serveren.
 
-Denne e-posten inneholder viktig informasjon om installasjonen, og bør tas vare på. Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+Denne e-posten inneholder viktig informasjon om installasjonen, og bÃ¸r tas vare pÃ¥. Passordet er trygt lagret i databasen vÃ¥r, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
 
 ----------------------------
 Brukernavn: {USERNAME}
@@ -12,8 +12,8 @@ Brukernavn: {USERNAME}
 System-URL: {U_BOARD}
 ----------------------------
 
-Nytting informasjon om phpBB-programvaren finner du i docs-mappen av installasjonen og på supportsiden til phpBB.com – https://www.phpbb.com/support/
+Nyttig informasjon om phpBB-programvaren finner du i docs-mappen av installasjonen og pÃ¥ supportsiden til phpBB.com â€“ https://www.phpbb.com/support/
 
-For at systemet skal være trygt og sikkert, anbefaler vi på det sterkeste at du holder det oppdatert med nyeste versjon av programvaren. Du kan melde deg på en e-postliste fra siden som er angitt ovenfor.
+For at systemet skal vÃ¦re trygt og sikkert, anbefaler vi pÃ¥ det sterkeste at du holder det oppdatert med nyeste versjon av programvaren. Du kan melde deg pÃ¥ en e-postliste fra siden som er angitt ovenfor.
 
 {EMAIL_SIG}

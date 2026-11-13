@@ -1,23 +1,23 @@
 
 Hei, {TO_USERNAME}!
 
-Følgende er en e-post som ble sendt til deg gjennom administrasjonskontaktsiden på «{SITENAME}».
+FÃ¸lgende er en e-post som ble sendt til deg gjennom administrasjonskontaktsiden pÃ¥ Â«{SITENAME}Â».
 
 <!-- IF S_IS_REGISTERED -->
-Meldingen er sendt fra en konto på systemet.
+Meldingen er sendt fra en konto pÃ¥ systemet.
 Brukernavn: {FROM_USERNAME}
 E-postadresse: {FROM_EMAIL_ADDRESS}
 IP-adresse: {FROM_IP_ADDRESS}
 Profil: {U_FROM_PROFILE}
 <!-- ELSE -->
-Meldingen er sendt fra en gjest som oppgav følgende kontaktinformasjon:
+Meldingen er sendt fra en gjest som oppgav fÃ¸lgende kontaktinformasjon:
 Navn: {FROM_USERNAME}
 E-postadresse: {FROM_EMAIL_ADDRESS}
 IP-adresse: {FROM_IP_ADDRESS}
 <!-- ENDIF -->
 
 
-Meldingen som ble sendt deg, følger
+Meldingen som ble sendt deg, fÃ¸lger
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

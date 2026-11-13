@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Sjekk alle versjoner på nytt',
 	'FORCE_UNSTABLE'					=> 'Sjekk alltid for ustabile versjoner',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Innstillinger for versjonssjekk',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versjonssjekkinnstillinger',
 
 	'META_FIELD_NOT_SET'	=> 'Det påkrevde metafeltet %s er ikke angitt.',
 	'META_FIELD_INVALID'	=> 'Metafeltet %s er ugyldig.',

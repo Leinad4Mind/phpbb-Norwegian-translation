@@ -1,7 +1,7 @@
-Subject: Rapport slettet – «{POST_SUBJECT}»
+Subject: Rapport slettet â€“ Â«{POST_SUBJECT}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi rapporten du sendte inn om innlegget «{POST_SUBJECT}» under «{TOPIC_TITLE}» på «{SITENAME}», ble slettet av en moderator eller administrator.
+Du mottar dette varselet fordi rapporten du sendte inn om innlegget Â«{POST_SUBJECT}Â» under Â«{TOPIC_TITLE}Â» pÃ¥ Â«{SITENAME}Â», ble slettet av en moderator eller administrator.
 
 {EMAIL_SIG}

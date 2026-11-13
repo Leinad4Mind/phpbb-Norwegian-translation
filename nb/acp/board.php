@@ -417,17 +417,17 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB supports authentication plug-ins, or modules. These allow you determine how users are authenticated when they log into the board. By default four plug-ins are provided: DB, LDAP, Apache, and OAuth. Not all methods require additional information so only fill out fields if they are relevant to the selected method.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB støtter autentiserings-plugins, eller moduler. Disse lar deg bestemme hvordan brukere autentiseres når de logger på systemet. Som standard leveres fire plugin-moduler: DB, LDAP, Apache og OAuth. Ikke alle metodene krever ytterligere informasjon, så du trenger bare fylle ut feltene hvis de er relevante for den valgte metoden.',
 
-	'AUTH_METHOD'				=> 'Select an authentication method',
+	'AUTH_METHOD'				=> 'Velg en autentiseringsmetode',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.',
-	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Både nøkkel og hemmelighet for hver av de aktiverte OAuth-tjenesteleverandørene må angis. Bare én ble angitt for en OAuth-tjenesteleverandør.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Alle OAuth-leverandører krever en unik hemmelighet og en nøkkel for å kunne autentisere dem gjennom den eksterne serveren. Disse får du av OAuth-tjenesten når du registrerer nettstedet ditt, og de skal angis nøyaktig slik du fikk dem.<br />Tjenester som ikke har både nøkkel og hemmelighet her, vil ikke være tilgjengelige for forumbrukerne. Merk også at brukeren fortsatt kan registrere seg og logge inn ved hjelp av plugin-modulen for DB-autentisering.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Nøkkel',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Hemmelighet',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'You have to setup apache authentication before you switch phpBB to this authentication method. Keep in mind that the username you use for apache authentication has to be the same as your phpBB username. Apache authentication can only be used with mod_php (not with a CGI version) and safe_mode disabled.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Du må konfigurere Apache-autentisering før du kan endre autentiseringsmetoden i phpBB til dette. Husk at brukernavnet du bruker til Apache-autentisering, må være det samme som phpBB-brukernavnet ditt. Apache-autentisering kan bare brukes med mod_php (ikke med en CGI-versjon) og safe_mode deaktivert.',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP basis-<var>dn</var>',

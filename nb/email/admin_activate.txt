@@ -2,12 +2,12 @@ Subject: Aktiver brukerkonto
 
 Hei!
 
-Kontoen som eies av «{USERNAME}» er deaktivert eller nylig opprettet. Du bør kontrollere detaljene for denne brukeren (om nødvendig) og behandle den deretter.
+Kontoen som eies av Â«{USERNAME}Â», er deaktivert eller nylig opprettet. Du bÃ¸r kontrollere detaljene for denne brukeren (om nÃ¸dvendig) og behandle den deretter.
 
-Bruk denne koblingen for å se brukerens profil:
+Bruk denne koblingen for Ã¥ se brukerens profil:
 {U_USER_DETAILS}
 
-Bruk denne lenken til å aktivere kontoen:
+Bruk denne lenken til Ã¥ aktivere kontoen:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

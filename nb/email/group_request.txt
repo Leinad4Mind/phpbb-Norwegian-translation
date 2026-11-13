@@ -1,9 +1,9 @@
-Subject: En forespørsel om å bli med i gruppen din er mottatt
+Subject: En forespÃ¸rsel om Ã¥ bli med i gruppen din er mottatt
 
-Kjære {USERNAME}
+KjÃ¦re {USERNAME}!
 
-Brukeren «{REQUEST_USERNAME}» har bedt om å få bli med i gruppen «{GROUP_NAME}», som du modererer på «{SITENAME}».
-Du kan godkjenne eller avslå denne forespørselen om gruppemedlemskap ved å gå til følgende lenke:
+Brukeren Â«{REQUEST_USERNAME}Â» har bedt om Ã¥ fÃ¥ bli med i gruppen Â«{GROUP_NAME}Â», som du modererer pÃ¥ Â«{SITENAME}Â».
+Du kan godkjenne eller avslÃ¥ denne forespÃ¸rselen om gruppemedlemskap ved Ã¥ gÃ¥ til fÃ¸lgende lenke:
 
 {U_PENDING}
 

@@ -1,18 +1,18 @@
-Subject: Varsel om foruminnlegg – «{FORUM_NAME}»
+Subject: Varsel om foruminnlegg â€“ Â«{FORUM_NAME}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi du overvåker forumet «{FORUM_NAME}» på «{SITENAME}». Dette forumet har mottatt et nytt svar på emnet «{TOPIC_TITLE}»<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besøk. Du kan bruke følgende lenke for å vise det nyeste uleste svaret. Du vil ikke motta flere varsler før du besøker emnet.
+Du mottar dette varselet fordi du overvÃ¥ker forumet Â«{FORUM_NAME}Â» pÃ¥ Â«{SITENAME}Â». Dette forumet har mottatt et nytt svar pÃ¥ emnet Â«{TOPIC_TITLE}Â»<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besÃ¸k. Du kan bruke fÃ¸lgende lenke for Ã¥ vise det nyeste uleste svaret. Du vil ikke motta flere varsler fÃ¸r du besÃ¸ker emnet.
 
 {U_NEWEST_POST}
 
-Hvis du vil vise emnet, klikker du følgende lenke:
+Hvis du vil vise emnet, klikker du fÃ¸lgende lenke:
 {U_TOPIC}
 
-Hvis du vil vise forumet, klikker du følgende lenke:
+Hvis du vil vise forumet, klikker du fÃ¸lgende lenke:
 {U_FORUM}
 
-Hvis du ikke lenger ønsker å overvåke dette forumet, kan du enten klikke lenken «Stopp abonnement på forum» på forumet ovenfor eller ved å klikke følgende lenke:
+Hvis du ikke lenger Ã¸nsker Ã¥ overvÃ¥ke dette forumet, kan du enten klikke lenken Â«Stopp abonnement pÃ¥ forumÂ» pÃ¥ forumet ovenfor eller ved Ã¥ klikke fÃ¸lgende lenke:
 
 {U_STOP_WATCHING_FORUM}
 

@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_REMOVE'			=> 'Brukere er fjernet fra gruppen og nye standarder er angitt.',
 
 	'LEGEND_EXPLAIN'				=> 'Dette er gruppene som vises i gruppeforklaringen:',
-	'LEGEND_SETTINGS'				=> 'Innstillinger for forklaring',
+	'LEGEND_SETTINGS'				=> 'Forklaringsinnstillinger',
 	'LEGEND_SORT_GROUPNAME'			=> 'Sorter forklaring etter gruppenavn',
 	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Rekkefølgen nedenfor ignoreres når dette alternativet aktiveres.',
 
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'TEAMPAGE_FORUMS'			=> 'Vis modererte fora',
 	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Hvis angitt til Ja, vil moderatorer ha en liste over alle foraene hvor moderatortillatelsene vises på den enkeltes rad. Dette kan være svært databaseintensivt på store systemer.',
 	'TEAMPAGE_MEMBERSHIPS'		=> 'Vis brukermedlemskap',
-	'TEAMPAGE_SETTINGS'			=> 'Innstillinger for teamside',
+	'TEAMPAGE_SETTINGS'			=> 'Teamsideinnstillinger',
 	'TOTAL_MEMBERS'				=> 'Medlemmer',
 
 	'USERS_APPROVED'				=> 'Brukere er godkjent.',

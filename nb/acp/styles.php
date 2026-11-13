@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Her kan du administrere hvilke stiler som er tilgjengelig på nettstedet. Du akn endre eksisterende stiler, slette, deaktivere, reaktiver og installere nye. Du kan også se hvordan en stil ser ut ved hjelp av funksjonen for forhåndsvisning. Du vil også se antall brukere for hver stil, men merk at overstyring av brukerstiler ikke vil bli gjenspeilet her.',
+	'ACP_STYLES_EXPLAIN'	=> 'Her kan du administrere hvilke stiler som er tilgjengelig på nettstedet. Du kan endre eksisterende stiler, slette, deaktivere, reaktiver og installere nye. Du kan også se hvordan en stil ser ut ved hjelp av funksjonen for forhåndsvisning. Du vil også se antall brukere for hver stil, men merk at overstyring av brukerstiler ikke vil bli gjenspeilet her.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Kan ikke installeres',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Er du sikker på at du vil avinstallere de valgte stilene?',

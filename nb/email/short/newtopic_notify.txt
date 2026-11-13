@@ -1,12 +1,12 @@
-Subject: Varsel om nytt emne – «{FORUM_NAME}»
+Subject: Varsel om nytt emne â€“ Â«{FORUM_NAME}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi du overvåker forumet «{FORUM_NAME}» på «{SITENAME}». Dette forumet har mottatt et nytt emne<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besøk: «{TOPIC_TITLE}». Du kan bruke følgende lenke til å vise forumet, det vil ikke bli sendt flere varsler før du besøker forumet.
+Du mottar dette varselet fordi du overvÃ¥ker forumet Â«{FORUM_NAME}Â» pÃ¥ Â«{SITENAME}Â». Dette forumet har mottatt et nytt emne<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besÃ¸k: Â«{TOPIC_TITLE}Â». Du kan bruke fÃ¸lgende lenke til Ã¥ vise forumet, det vil ikke bli sendt flere varsler fÃ¸r du besÃ¸ker forumet.
 
 {U_FORUM}
 
-Hvis du ikke lenger ønsker å overvåke dette forumet, kan du enten klikke lenken «Stopp abonnement på forum» på forumet ovenfor eller ved å klikke følgende lenke:
+Hvis du ikke lenger Ã¸nsker Ã¥ overvÃ¥ke dette forumet, kan du enten klikke lenken Â«Stopp abonnement pÃ¥ forumÂ» pÃ¥ forumet ovenfor eller ved Ã¥ klikke fÃ¸lgende lenke:
 
 {U_STOP_WATCHING_FORUM}
 

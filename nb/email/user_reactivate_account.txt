@@ -1,17 +1,17 @@
-Subject: Reaktiver kontoen din på «{SITENAME}»
+Subject: Reaktiver kontoen din pÃ¥ Â«{SITENAME}Â»
 
-En systemadministrator har bedt om at kontoen din reaktiveres. Kontoen din er for øyeblikket inaktiv.
-Følg trinnene her for å reaktivere kontoen.
+En systemadministrator har bedt om at kontoen din reaktiveres. Kontoen din er for Ã¸yeblikket inaktiv.
+FÃ¸lg trinnene her for Ã¥ reaktivere kontoen.
 
-Ta vare på denne e-posten. Kontoinformasjonen din er som følger:
+Ta vare pÃ¥ denne e-posten. Kontoinformasjonen din er som fÃ¸lger:
 
 ----------------------------
 Brukernavn: {USERNAME}
 ----------------------------
 
-Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+Passordet er trygt lagret i databasen vÃ¥r, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
 
-Bruk følgende lenke for å reaktivere kontoen:
+Bruk fÃ¸lgende lenke for Ã¥ reaktivere kontoen:
 
 {U_ACTIVATE}
 

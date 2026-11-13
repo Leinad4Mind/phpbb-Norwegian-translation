@@ -2,16 +2,16 @@ Subject: Aktivering av nytt passord
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi du (eller noen som utgir seg for å være deg) har bedt om å bli tilsendt et nytt passord til kontoen din på «{SITENAME}». Hvis du ikke ba om dette, kan du ignorere denne e-posten. Hvis du fortsetter å motta slike e-poster, kontakter du systemadministratoren.
+Du mottar dette varselet fordi du (eller noen som utgir seg for Ã¥ vÃ¦re deg) har bedt om Ã¥ bli tilsendt et nytt passord til kontoen din pÃ¥ Â«{SITENAME}Â». Hvis du ikke ba om dette, kan du ignorere denne e-posten. Hvis du fortsetter Ã¥ motta slike e-poster, kontakter du systemadministratoren.
 
-Du må aktivere passordet for å kunne bruke det. Dette gjør du ved å klikke på lenken nedenfor.
+Du mÃ¥ aktivere passordet for Ã¥ kunne bruke det. Dette gjÃ¸r du ved Ã¥ klikke pÃ¥ lenken nedenfor.
 
 {U_ACTIVATE}
 
-Hvis dette lykkes, vil du kunne logge inn med følgende passord:
+Hvis dette lykkes, vil du kunne logge inn med fÃ¸lgende passord:
 
 Passord: {PASSWORD}
 
-Du kan selvsagt endre dette passordet selv, fra profilsiden din. Kontakt systemadministratoren hvis du ikke får dette til.
+Du kan selvsagt endre dette passordet selv, fra profilsiden din. Kontakt systemadministratoren hvis du ikke fÃ¥r dette til.
 
 {EMAIL_SIG}

@@ -1,16 +1,16 @@
-Subject: Velkommen til «{SITENAME}»
+Subject: Velkommen til Â«{SITENAME}Â»
 
 {WELCOME_MSG}
 
-Ta vare på denne e-posten. Kontoinformasjonen din er som følger:
+Ta vare pÃ¥ denne e-posten. Kontoinformasjonen din er som fÃ¸lger:
 
 ----------------------------
 Brukernavn: {USERNAME}
 ----------------------------
 
-Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+Passordet er trygt lagret i databasen vÃ¥r, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
 
-Bruk følgende lenke til å aktivere kontoen:
+Bruk fÃ¸lgende lenke til Ã¥ aktivere kontoen:
 
 {U_ACTIVATE}
 

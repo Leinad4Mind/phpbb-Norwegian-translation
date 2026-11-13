@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_PASSWORD'			=> 'Administrators passord',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Bekreft administratorpassord',
 	'ADMIN_PASSWORD_EXPLAIN'	=> 'Angi et passord på mellom 6 og 30 tegn.',
-	'ADMIN_TEST'				=> 'Kontroller administratorinnstillinger',
+	'ADMIN_TEST'				=> 'Kontroll av administratorinnstillinger',
 	'ADMIN_USERNAME'			=> 'Administrators brukernavn',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Angi et brukernavn på mellom 3 og 20 tegn.',
 	'APP_MAGICK'				=> 'Støtte for Imagemagick [ Vedlegg ]',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Fortsett tidligere startet konvertering',
 	'CONVERT'					=> 'Konverter',
 	'CONVERT_COMPLETE'			=> 'Konvertering fullført',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nå konvertert systemet til phpBB 3.1. Du kan nå logge inn og <a href="../">bruke systemet</a>. Kontroller at innstillingene ble overført korrekt før du aktiverer systemet ved å slette installasjonsmappen. Husk at du finner hjelp til bruken av phpBB online under <a href="https://www.phpbb.com/support/documentation/3.0/">Dokumentasjon</a> og <a href="https://www.phpbb.com/community/viewforum.php?f=46">supportforaene</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nå konvertert systemet til phpBB 3.1. Du kan nå logge inn og <a href="../">bruke systemet</a>. Kontroller at innstillingene ble overført korrekt før du aktiverer systemet ved å slette installasjonsmappen. Husk at du finner hjelp til bruken av phpBB online under <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Dokumentasjon</a> og <a href="https://www.phpbb.com/community/viewforum.php?f=466">supportforaene</a>.',
 	'CONVERT_INTRO'				=> 'Velkommen til phpBB Unified Convertor Framework',
 	'CONVERT_INTRO_BODY'		=> 'Herfra kan du importere data fra andre (installerte) forumsystemer. Listen nedenfor viser alle konverteringsmoduler som er tilgjengelig for øyblikket. Hvis det ikke vises noen konverterer for forumprogramvaren du vil konvertere fra, kan du se på systemet vårt, om flere konverteringsmoduler er blitt tilgjengelig for nedlasting.',
 	'CONVERT_NEW_CONVERSION'	=> 'Ny konvertering',
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'DB_PORT_EXPLAIN'			=> 'La dette stå tomt hvis du ikke vet at serveren bruker en ikke-standardport.',
 	'DB_UPDATE_NOT_SUPPORTED'	=> 'Vi beklager, men dette skriptet støtter ikke oppdatering fra phpBB-versjoner før «%1$s». Versjonen du har installert, er «%2$s». Oppdater til en annen versjon før du kjører dette skriptet. Du finner hjelp rundt dette på supportforumet på phpBB.com.',
 	'DB_USERNAME'				=> 'Databasebrukernavn',
-	'DB_TEST'					=> 'Test tilkobling',
+	'DB_TEST'					=> 'Testtilkobling',
 	'DEFAULT_LANG'				=> 'Standardspråk for systemet',
 	'DEFAULT_PREFIX_IS'			=> 'Konvertereren finnes ikke tabeller med det angitte prefikset. Kontroller at du har angitt korrekte detaljer for systemet du konverterer fra. Standard tabellprefiks for %1$s er <strong>%2$s</strong>.',
 	'DEV_NO_TEST_FILE'			=> 'Det er ikke angitt noen verdi for variabelen test_file i konvertereren. Hvis du er en bruker av denne konvertereren, skal du ikke se denne feilen, og vi ber om at du informerer konvertererens opphavsmann om denne meldingen. Hvis du er konvertererens opphavsmann, må du angi navnet på en fil som finnes på kildesystemet, slik at det er mulig å bekrefte banen til den.',
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
 		<h2>Konvertere et eksisterende system til phpBB3</h2>
 		<p>phpBB Unified Convertor Framework støtter konvertering av phpBB 2.0.x og andre forumsystemer til phpBB3. Hvis du har et eksisterende system du vil konvertere, kan du <a href="%2$s">fortsette til konvertereren</a>.</p>
 		<h2>Gjøre phpBB3 tilgjengelig!</h2>
-		<p>Hvis du klikker på knappen nedenfor, tas du til et skjema for innsending av statistikkdata til phPBB i administrasjonskontrollpanelet (ACP). Vi vil sette pris på om du kan hjelpe oss ved å sende den informasjonen. Etterpå bør du bruke litt tid på å undersøke hvilke alternativer du har tilgjengelig. Husk at du finner hjelp online under <a href="https://www.phpbb.com/support/documentation/3.0/">Dokumentasjon</a>, <a href="%3$s">LESMEG</a> og <a href="https://www.phpbb.com/community/viewforum.php?f=46">support-foraene</a>.</p><p><strong>Slett, flytte eller gi nytt navn til installasjonsmappen før du tar i bruk systemet. Så lenge denne mappen finnes, vil bare administrasjonskontrollpanelet (ACP) være tilgjengelig.</strong>',
+		<p>Hvis du klikker på knappen nedenfor, tas du til et skjema for innsending av statistikkdata til phPBB i administrasjonskontrollpanelet (ACP). Vi vil sette pris på om du kan hjelpe oss ved å sende den informasjonen. Etterpå bør du bruke litt tid på å undersøke hvilke alternativer du har tilgjengelig. Husk at du finner hjelp online under <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Dokumentasjon</a>, <a href="%3$s">LESMEG</a> og <a href="https://www.phpbb.com/community/viewforum.php?f=466">support-foraene</a>.</p><p><strong>Slett, flytte eller gi nytt navn til installasjonsmappen før du tar i bruk systemet. Så lenge denne mappen finnes, vil bare administrasjonskontrollpanelet (ACP) være tilgjengelig.</strong>',
 	'INSTALL_INTRO'				=> 'Velkommen til installasjonsprogrammet',
 
 	'INSTALL_INTRO_BODY'		=> 'Med dette alternativet er det mulig å installere phpBB3 på en server.</p><p>For å kunne fortsette, trenger du databaseinnstillinger. Hvis du ikke kjenner databaseinnstillingene, kontakter du tjenesteleverandøren og ber om dem. Du vil ikke kunne fortsette uten dette. Du trenger:</p>
@@ -276,7 +276,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Kontroller at denne mappen finnes og kan skrives til av webserveren, og prøv igjen:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Kontroller at disse mappene finnes og kan skrives til av webserveren, og prøv igjen: <br />»<strong>%s</strong>.',
 
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'MySQL-databaseskjemaet for phpBB er foreldet. phpBB har funnet et skjema for MySQL 3.x/4.x, men serveren kjører MySQL %2$s.<br /><strong>Før du fortsetter med oppdateringen, må du oppgradere skjemaet.</strong><br /><br />Se <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">kunnskapsbaseartikkelen om oppgradering av MySQL-skjema</a>. Hvis du får problemer, kan du bruke <a href="https://www.phpbb.com/community/viewforum.php?f=46">supportforaene våre</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'MySQL-databaseskjemaet for phpBB er foreldet. phpBB har funnet et skjema for MySQL 3.x/4.x, men serveren kjører MySQL %2$s.<br /><strong>Før du fortsetter med oppdateringen, må du oppgradere skjemaet.</strong><br /><br />Se <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">kunnskapsbaseartikkelen om oppgradering av MySQL-skjema</a>. Hvis du får problemer, kan du bruke <a href="https://www.phpbb.com/community/viewforum.php?f=466">supportforaene våre</a>.',
 
 	'NAMING_CONFLICT'			=> 'Navnekonflikt: %s og %s er begge aliaser<br /><br />%s',
 	'NEXT_STEP'					=> 'Fortsett til neste trinn',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'Lisens',
 	'SUB_SUPPORT'				=> 'Support',
 	'SUCCESSFUL_CONNECT'		=> 'Tilkobling vellykket',
-	'SUPPORT_BODY'				=> 'Full support gis for gjeldende stabile versjon av phpBB3, helt kostnadsfritt. Dette omfatter:</p><ul><li>installasjon</li><li>konfigurasjon</li><li>tekniske spørsmål</li><li>problemer som har å gjøre med mulige feil i programvaren</li><li>oppdatering fra RC-versjoner (Release Candidate) til nyeste stabile versjon</li><li>konvertering fra phpBB 2.0.x til phpBB3</li><li>konvertering fra andre forumløsninger til phpBB3 (se <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertererforum</a>)</li></ul><p>Vi anbefaler at brukere som fortsatt kjører betaversjoner av phpBB3 erstatter installasjonen med den nyeste versjonen.</p><h2>Utvidelser / Stiler</h2><p>Problemer som har å gjøre med utvidelser, kan legges i det aktuelle <a href="https://www.phpbb.com/community/viewforum.php?f=451">utvidelsesforumet</a>.<br />Problemer som har å gjøre med stiler, maler og tema, kan legges inn i det aktuelle <a href="https://www.phpbb.com/community/viewforum.php?f=471">stilforumet</a>.<br /><br />Hvis spørsmålet er relatert til en bestemt pakke, legger du dette inn direkte i emnet som omhandler den pakken.</p><h2>Få support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB-velkomstpakke</a><br /><a href="https://www.phpbb.com/support/">Supportdel</a><br /><a href="https://www.phpbb.com/support/documentation/3.1/quickstart/">Hurtigstartveiledning</a><br /><br />Hvis du vil være sikker på at du får med deg siste nytt og de nyeste versjonene, hvorfor ikke <a href="https://www.phpbb.com/support/">abonnere på e-postlisten vår</a>?<br /><br />',
+	'SUPPORT_BODY'				=> 'Full support gis for gjeldende stabile versjon av phpBB3, helt kostnadsfritt. Dette omfatter:</p><ul><li>installasjon</li><li>konfigurasjon</li><li>tekniske spørsmål</li><li>problemer som har å gjøre med mulige feil i programvaren</li><li>oppdatering fra RC-versjoner (Release Candidate) til nyeste stabile versjon</li><li>konvertering fra phpBB 2.0.x til phpBB3</li><li>konvertering fra andre forumløsninger til phpBB3 (se <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertererforum</a>)</li></ul><p>Vi anbefaler at brukere som fortsatt kjører betaversjoner av phpBB3 erstatter installasjonen med den nyeste versjonen.</p><h2>Utvidelser / Stiler</h2><p>Problemer som har å gjøre med utvidelser, kan legges i det aktuelle <a href="https://www.phpbb.com/community/viewforum.php?f=451">utvidelsesforumet</a>.<br />Problemer som har å gjøre med stiler, maler og tema, kan legges inn i det aktuelle <a href="https://www.phpbb.com/community/viewforum.php?f=471">stilforumet</a>.<br /><br />Hvis spørsmålet er relatert til en bestemt pakke, legger du dette inn direkte i emnet som omhandler den pakken.</p><h2>Få support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB-velkomstpakke</a><br /><a href="https://www.phpbb.com/support/">Supportdel</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Hurtigstartveiledning</a><br /><br />Hvis du vil være sikker på at du får med deg siste nytt og de nyeste versjonene, hvorfor ikke <a href="https://www.phpbb.com/support/">abonnere på e-postlisten vår</a>?<br /><br />',
 	'SYNC_FORUMS'				=> 'Starter synkronisering av fora',
 	'SYNC_POST_COUNT'			=> 'Synkroniserer post_counts',
 	'SYNC_POST_COUNT_ID'		=> 'Synkroniserer post_counts fra <var>entry</var> %1$s til %2$s.',
@@ -616,7 +616,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_IDEA'					=> 'Idé',
 	'SMILIES_LAUGHING'				=> 'Ler',
 	'SMILIES_MAD'					=> 'Sint',
-	'SMILIES_MR_GREEN'				=> 'Her grønn',
+	'SMILIES_MR_GREEN'				=> 'Herr grønn',
 	'SMILIES_NEUTRAL'				=> 'Nøytral',
 	'SMILIES_QUESTION'				=> 'Spørsmål',
 	'SMILIES_RAZZ'					=> 'Geip',

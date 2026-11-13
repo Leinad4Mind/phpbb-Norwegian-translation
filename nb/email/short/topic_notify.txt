@@ -1,19 +1,19 @@
-Subject: Varsel om svar på emne – «{TOPIC_TITLE}»
+Subject: Varsel om svar pÃ¥ emne â€“ Â«{TOPIC_TITLE}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi du overvåker emnet «{TOPIC_TITLE}» på «{SITENAME}». Dette emnet har mottatt et svar<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besøk. Ingen flere varsler vil bli sendt før du besøker emnet.
+Du mottar dette varselet fordi du overvÃ¥ker emnet Â«{TOPIC_TITLE}Â» pÃ¥ Â«{SITENAME}Â». Dette emnet har mottatt et svar<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> siden ditt forrige besÃ¸k. Ingen flere varsler vil bli sendt fÃ¸r du besÃ¸ker emnet.
 
-Hvis du vil vise de nyeste innleggene siden ditt forrige besøk, klikker du følgende lenke:
+Hvis du vil vise de nyeste innleggene siden ditt forrige besÃ¸k, klikker du fÃ¸lgende lenke:
 {U_NEWEST_POST}
 
-Hvis du vil vise emnet, klikker du følgende lenke:
+Hvis du vil vise emnet, klikker du fÃ¸lgende lenke:
 {U_TOPIC}
 
-Hvis du vil vise forumet, klikker du følgende lenke:
+Hvis du vil vise forumet, klikker du fÃ¸lgende lenke:
 {U_FORUM}
 
-Hvis du ikke lenger ønsker å overvåke dette forumet, kan du enten klikke lenken «Stopp abonnement på forum» på forumet ovenfor eller ved å klikke følgende lenke:
+Hvis du ikke lenger Ã¸nsker Ã¥ overvÃ¥ke dette forumet, kan du enten klikke lenken Â«Stopp abonnement pÃ¥ forumÂ» pÃ¥ forumet ovenfor eller ved Ã¥ klikke fÃ¸lgende lenke:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

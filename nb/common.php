@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'BUTTON_POST_REPLY'		=> 'Svar',
 	'BUTTON_QUOTE'			=> 'Siter',
 	'BUTTON_TOPIC_LOCKED'	=> 'Låst',
-	'BYTES'					=> 'Byte',
+	'BYTES'					=> 'byte',
 	'BYTES_SHORT'			=> 'B',
 
 	'CANCEL'				=> 'Avbryt',
@@ -345,7 +345,7 @@ $lang = array_merge($lang, array(
 	'JOINED'				=> 'Registrert',
 	'JUMP_PAGE'				=> 'Angi sidenummeret du vil gå til',
 	'JUMP_TO'				=> 'Gå til',
-	'JUMP_TO_PAGE'			=> 'Gå ril side',
+	'JUMP_TO_PAGE'			=> 'Gå til side',
 	'JUMP_TO_PAGE_CLICK'	=> 'Klikk for å gå til side…',
 
 	'KB'					=> 'kB',

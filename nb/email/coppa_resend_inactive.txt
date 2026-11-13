@@ -1,10 +1,10 @@
-Subject: Velkommen til «{SITENAME}»
+Subject: Velkommen til Â«{SITENAME}Â»
 
 {WELCOME_MSG}
 
-I henhold til COPPA er kontoen din for øyeblikket inaktiv.
+I henhold til COPPA er kontoen din for Ã¸yeblikket inaktiv.
 
-Skriv ut denne meldingen og få en forelder eller en verge til å datere og signere den. Send den deretter per telefaks til:
+Skriv ut denne meldingen og fÃ¥ en forelder eller en verge til Ã¥ datere og signere den. Send den deretter per telefaks til:
 
 {FAX_INFO}
 
@@ -13,14 +13,14 @@ ELLER send den som brev til:
 {MAIL_INFO}
 
 ------------------------------ KLIPP HER ------------------------------
-Tillatelse til å delte på «{SITENAME}» – {U_BOARD}
+Tillatelse til Ã¥ delte pÃ¥ Â«{SITENAME}Â» â€“ {U_BOARD}
 
 Brukernavn: {USERNAME}
 E-post: {EMAIL_ADDRESS}
 
-JEG HAR GÅTT GJENNOM INFORMASJONEN SOM MITT BARN HAR GITT MEG, OG GIR HERVED TILLATELSE TIL AT «{SITENAME}» LAGRER DISSE OPPLYSNINGENE.
-JEG FORSTÅR AT DISSE OPPLYSNINGENE NÅR SOM HELST KAN ENDRES VED Å ANGI ET PASSORD.
-JEG FORSTÅR AT JEG NÅR SOM HELST KAN BE OM AT DISSE OPPLYSNINGENE FJERNES FRA «{SITENAME}».
+JEG HAR GÃ…TT GJENNOM INFORMASJONEN SOM MITT BARN HAR GITT MEG, OG GIR HERVED TILLATELSE TIL AT Â«{SITENAME}Â» LAGRER DISSE OPPLYSNINGENE.
+JEG FORSTÃ…R AT DISSE OPPLYSNINGENE NÃ…R SOM HELST KAN ENDRES VED Ã… ANGI ET PASSORD.
+JEG FORSTÃ…R AT JEG NÃ…R SOM HELST KAN BE OM AT DISSE OPPLYSNINGENE FJERNES FRA Â«{SITENAME}Â».
 
 
 Forelder eller verge 
@@ -33,9 +33,9 @@ Dato: _______________
 ------------------------------ KLIPP HER ------------------------------
 
 
-Når administratoren har mottatt skjemaet ovenfor per telefaks eller brev, vil kontoen bli aktivert.
+NÃ¥r administratoren har mottatt skjemaet ovenfor per telefaks eller brev, vil kontoen bli aktivert.
 
-Passordet er trygt lagret i databasen vår, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
+Passordet er trygt lagret i databasen vÃ¥r, og kan ikke hentes ut. Hvis du glemmer det, vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet kontoen.
 
 Takk for at du registrerte deg.
 

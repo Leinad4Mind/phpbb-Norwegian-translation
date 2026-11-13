@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Installerte språkpakker',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Språkdetaljene er oppdatert.',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Denne språkpakken er allerede installer.',
+	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Denne språkpakken er allerede installert.',
 	'LANGUAGE_PACK_DELETED'				=> 'Språkpakken «%s» er fjernet. Alle brukere som brukte dette språket, har fått språket tilbakestilt til systemets standardspråk.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Språkpakkedetaljer',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Språkpakken «%s» er installert.',

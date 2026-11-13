@@ -1,7 +1,7 @@
-Subject: Rapport slettet – «{PM_SUBJECT}»
+Subject: Rapport slettet â€“ Â«{PM_SUBJECT}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi rapporten du sendte om den private meldingen «{PM_SUBJECT}» på «{SITENAME}» ble slettet av en moderator eller administrator.
+Du mottar dette varselet fordi rapporten du sendte om den private meldingen Â«{PM_SUBJECT}Â» pÃ¥ Â«{SITENAME}Â» ble slettet av en moderator eller administrator.
 
 {EMAIL_SIG}

@@ -362,7 +362,7 @@ $lang = array_merge($lang, array(
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Målmappen «%s» ser ut til å være full. Den forespurte handlingen er ikke utført.',
 	'NOT_MOVED_MESSAGES'			=> array(
 		1	=> 'Du har %d privat melding på vent fordi mappen er full.',
-		2	=> 'Du har %d private meldinger på vent fordi mappen er full',
+		2	=> 'Du har %d private meldinger på vent fordi mappen er full.',
 	),
 	'NO_ACTION_MODE'				=> 'Ingen meldingshandling er angitt.',
 	'NO_AUTHOR'						=> 'Ingen forfatter er angitt for denne meldingen',
@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE'				=> 'Profil',
 	'UCP_PROFILE_AVATAR'		=> 'Rediger avatar',
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Rediger profil',
-	'UCP_PROFILE_REG_DETAILS'	=> 'Reduger kontoinnstillinger',
+	'UCP_PROFILE_REG_DETAILS'	=> 'Rediger kontoinnstillinger',
 	'UCP_PROFILE_SIGNATURE'		=> 'Rediger signatur',
 	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Administrer «Husk meg»-innloggingsnøkler',
 

@@ -1,16 +1,16 @@
-Subject: «{SITENAME}» – Send e-post til en venn
+Subject: Â«{SITENAME}Â» â€“ Send e-post til en venn
 
 Hei, {TO_USERNAME}!
 
-Denne e-posten ble sendt fra «{SITENAME}» av {FROM_USERNAME}, som tror du kan være interessert i følgende emne:
+Denne e-posten ble sendt fra Â«{SITENAME}Â» av {FROM_USERNAME}, som tror du kan vÃ¦re interessert i fÃ¸lgende emne:
 
 {TOPIC_NAME}
 
-Du finner det på:
+Du finner det pÃ¥:
 
 {U_TOPIC}
 
-Du finner kanskje en melding fra {FROM_USERNAME} nedenfor. Merk at denne meldingen ikke er sett eller godkjent av systemadministratorene. Hvis du vil klage på å ha mottatt denne meldingen, kontakter du systemadministratoren på {BOARD_CONTACT}. Ta med meldingshodene når du kontakter denne adressen.
+Du finner kanskje en melding fra {FROM_USERNAME} nedenfor. Merk at denne meldingen ikke er sett eller godkjent av systemadministratorene. Hvis du vil klage pÃ¥ Ã¥ ha mottatt denne meldingen, kontakter du systemadministratoren pÃ¥ {BOARD_CONTACT}. Ta med meldingshodene nÃ¥r du kontakter denne adressen.
 
 ----------
 

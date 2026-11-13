@@ -1,10 +1,10 @@
-Subject: Innlegg avslått – «{POST_SUBJECT}»
+Subject: Innlegg avslÃ¥tt â€“ Â«{POST_SUBJECT}Â»
 
 Hei, {USERNAME}!
 
-Du mottar dette varselet fordi innlegget ditt, «{POST_SUBJECT}» på «{SITENAME}» ble avslått av en moderator eller administrator.
+Du mottar dette varselet fordi innlegget ditt, Â«{POST_SUBJECT}Â» pÃ¥ Â«{SITENAME}Â» ble avslÃ¥tt av en moderator eller administrator.
 
-Følgende begrunnelse ble gitt for avslaget:
+FÃ¸lgende begrunnelse ble gitt for avslaget:
 
 {REASON}
 

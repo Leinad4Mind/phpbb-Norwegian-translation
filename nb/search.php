@@ -73,6 +73,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Ingen nylige søk.',
 	'NO_SEARCH'				=> 'Beklager, men du har ikke tillatelse til å bruke søkesystemet.',
 	'NO_SEARCH_RESULTS'		=> 'Fant ingen treff.',
+	'NO_SEARCH_LOAD'		=>	'Beklager, men du kan ikke bruke søket nå. Serveren har høy belastning. Prøv igjen senere.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Beklager, men du kan ikke bruke søket nå. Prøv igjen om %d sekund.',
 		2	=> 'Beklager, men du kan ikke bruke søket nå. Prøv igjen om %d sekunder.',
